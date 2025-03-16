@@ -2,36 +2,38 @@
 
 import {
   Logo,
-  Menu,
   LinkList,
   LinkItem,
-  ContactBtn,
+  HeaderButton,
+  ArrowRight,
   StyledHeader,
   HeaderContainer,
 } from "./style";
 
 export const Header = () => {
   const links = [
-    { name: "Serviços", href: "#" },
-    { name: "Sobre", href: "#" },
-    { name: "Depoimentos", href: "#" },
+    { name: "Home", href: "/" },
+    { name: "Serviços", href: "#services" },
+    { name: "Sobre nós", href: "#about-us" },
+    { name: "Depoimentos", href: "#testimonials" },
   ];
 
   return (
     <>
       <StyledHeader>
         <HeaderContainer>
-          <Menu>
-            <Logo />
-            <LinkList>
-              {links.map((item) => (
-                <LinkItem key={item.name}>
-                  <a href={item.href}>{item.name}</a>
-                </LinkItem>
-              ))}
-            </LinkList>
-            <ContactBtn href="#">Contato</ContactBtn>
-          </Menu>
+          <Logo />
+          <LinkList>
+            {links.map((item) => (
+              <LinkItem key={item.name}>
+                <a href={item.href}>{item.name}</a>
+              </LinkItem>
+            ))}
+          </LinkList>
+          <HeaderButton href="#">
+            <ArrowRight />
+            Fale conosco
+          </HeaderButton>
         </HeaderContainer>
       </StyledHeader>
     </>

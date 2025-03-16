@@ -1,7 +1,7 @@
-@import "tailwindcss";
-
 :root {
   font-size: 62.5%;
+
+  --primary-color: rgb(22, 72, 179);
 }
 
 * {
@@ -17,4 +17,12 @@ html {
 body {
   font-size: 1.6rem;
   font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
 }

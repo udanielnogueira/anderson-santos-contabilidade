@@ -1,5 +1,6 @@
 import "./globals.css";
 import { Hanken_Grotesk } from "next/font/google";
+import StyledComponentsRegistry from "../lib/registry";
 
 const hankenGrotesk = Hanken_Grotesk({
   subsets: ["latin"],
@@ -13,7 +14,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body className={hankenGrotesk.className}>{children}</body>
+      <body className={hankenGrotesk.className}>
+        <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
+      </body>
     </html>
   );
 }

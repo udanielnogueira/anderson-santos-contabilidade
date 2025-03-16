@@ -1,66 +1,73 @@
 import styled from "styled-components";
-import { GiSandSnake } from "react-icons/gi";
+import { SiHdfcbank } from "react-icons/si";
+import { GoArrowDownRight } from "react-icons/go";
 
 export const StyledHeader = styled.header`
-  background-color: black;
+  border: 1px solid blue;
 `;
 
-export const HeaderContainer = styled.section`
+export const HeaderContainer = styled.nav`
   margin: 0 auto;
   max-width: 128rem;
-`;
+  border: 1px solid red;
 
-export const Menu = styled.nav`
+  height: 8rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
 `;
 
-export const Logo = styled(GiSandSnake)`
-  width: 5rem;
-  height: 5rem;
-  color: white;
+export const Logo = styled(SiHdfcbank)`
+  width: 3.2rem;
+  height: 3.2rem;
   cursor: pointer;
+  color: var(--primary-color);
+
+  // Adjusting to same width of HeaderButton
+  margin-right: 14.2rem;
+`;
+
+export const ArrowRight = styled(GoArrowDownRight)`
+  color: white;
+  width: 2.4rem;
+  height: 2.4rem;
 `;
 
 export const LinkList = styled.ul`
-  gap: 1.6rem;
+  gap: 3.2rem;
   display: flex;
   justify-content: center;
 `;
 
 export const LinkItem = styled.li`
-  font-weight: 300;
-  list-style: none;
-  font-size: 1.8rem;
+  font-weight: 500;
+  font-size: 1.6rem;
 
   a {
-    color: white;
-    text-decoration: none;
-    transition: 0.4s ease-in-out;
+    color: black;
+    transition: 100ms ease-in-out; // 100ms == 0.1s
 
     &:hover {
-      color: blue;
+      border-bottom: 0.4rem solid var(--primary-color);
     }
   }
 `;
 
-export const ContactBtn = styled.a`
+export const HeaderButton = styled.a`
+  gap: 0.8rem;
+  display: flex;
+  align-items: center;
+
   color: white;
   cursor: pointer;
-  border-radius: 4rem;
-  padding: 0.4rem 2rem;
-  background-color: blue;
-  transition: 0.4s ease-in-out;
+  font-weight: 400;
+  font-size: 1.6rem;
+  border-radius: 0rem;
+  padding: 0.8rem 2.4rem;
+  transition: 400ms ease-in-out;
+  background-color: var(--primary-color);
 
   &:hover {
-    color: blue;
-    background-color: white;
+    padding: 0.8rem 4.8rem;
   }
 `;
-
-export const Headline = styled.h2``;
-
-export const Text = styled.p``;
-
-export const Button = styled.button``;
