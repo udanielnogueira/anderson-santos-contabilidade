@@ -7,8 +7,8 @@ import {
   CardTitle,
   Heading,
   ServiceCard,
-  ServiceCards,
-  ServiceContainerIcon,
+  ServicesCards,
+  ServicesContainerIcon,
   ServicesContainer,
   StyledServices,
   Subheading,
@@ -23,12 +23,12 @@ export const Services = () => {
   return (
     <StyledServices id="services">
       <ServicesContainer>
-        <ServiceContainerIcon>
+        <ServicesContainerIcon>
           <BsBoxes />
-        </ServiceContainerIcon>
+        </ServicesContainerIcon>
         <Heading>Confira os serviços do nosso escritório</Heading>
-        <Subheading>Praticidade e confiança para sua gestão</Subheading>
-        <ServiceCards>
+        <Subheading>Praticidade e confiança na sua gestão</Subheading>
+        <ServicesCards>
           <ServiceCard>
             <CardImage>
               <FaRegMoneyBillAlt />
@@ -89,10 +89,10 @@ export const Services = () => {
             </CardImage>
             <CardTitle>Mais serviços</CardTitle>
             <CardText>
-              Entrega de declaração de IR, cadastro em certificações e mais.
+              Entrega de declaração de IR, cadastro em certificações e outros.
             </CardText>
           </ServiceCard>
-        </ServiceCards>
+        </ServicesCards>
       </ServicesContainer>
     </StyledServices>
   );

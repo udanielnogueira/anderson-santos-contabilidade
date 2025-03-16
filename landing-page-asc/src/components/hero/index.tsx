@@ -24,7 +24,7 @@ export const Hero = () => {
             contábeis amigáveis para uma gestão segura e regularizada.
           </Subheadline>
           <HeroButtonsContainer>
-            <HeroButton>Serviços</HeroButton>
+            <HeroButton href="#services">Serviços</HeroButton>
             <HeroButtonBordered>
               <ArrowRight />
               Fale conosco

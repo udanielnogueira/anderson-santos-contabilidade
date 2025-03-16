@@ -58,7 +58,7 @@ export const HeroButton = styled.a`
 
   &:hover {
     color: white;
-    background-color: black;
+    background-color: rgb(33, 118, 230);
   }
 `;
 

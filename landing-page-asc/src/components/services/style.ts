@@ -18,7 +18,7 @@ export const ServicesContainer = styled.div`
   justify-content: center;
 `;
 
-export const ServiceContainerIcon = styled.div`
+export const ServicesContainerIcon = styled.div`
   animation: moving 1600ms ease-in-out infinite alternate;
 
   @keyframes moving {
@@ -55,7 +55,7 @@ export const Subheading = styled.p`
   margin-bottom: 8rem;
 `;
 
-export const ServiceCards = styled.div`
+export const ServicesCards = styled.div`
   grid-row-gap: 9.6rem;
   width: 100%;
   display: grid;
