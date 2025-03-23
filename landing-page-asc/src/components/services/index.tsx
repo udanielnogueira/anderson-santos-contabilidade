@@ -1,6 +1,6 @@
 "use client";
 
-import { TbReportMoney, TbTopologyStar2 } from "react-icons/tb";
+import { TbReportMoney } from "react-icons/tb";
 import {
   CardImage,
   CardText,
@@ -13,9 +13,13 @@ import {
   StyledServices,
   Subheading,
 } from "./style";
-import { FaMoneyBill, FaRegMoneyBillAlt } from "react-icons/fa";
-import { BsBoxes } from "react-icons/bs";
-import { MdPersonOutline, MdWorkspacesOutline } from "react-icons/md";
+import { FaRegMoneyBillAlt } from "react-icons/fa";
+
+import {
+  MdKeyboardDoubleArrowDown,
+  MdPersonOutline,
+  MdWorkspacesOutline,
+} from "react-icons/md";
 import { LuGlasses } from "react-icons/lu";
 import { PiSuitcaseSimpleBold } from "react-icons/pi";
 
@@ -23,8 +27,8 @@ export const Services = () => {
   return (
     <StyledServices id="services">
       <ServicesContainer>
-        <ServicesContainerIcon>
-          <BsBoxes />
+        <ServicesContainerIcon href="#services">
+          <MdKeyboardDoubleArrowDown />
         </ServicesContainerIcon>
         <Heading>Confira os serviços do nosso escritório</Heading>
         <Subheading>Praticidade e confiança na sua gestão</Subheading>

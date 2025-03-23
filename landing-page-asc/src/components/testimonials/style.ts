@@ -23,7 +23,7 @@ export const Heading = styled.h2`
   font-weight: 600;
   max-width: 64rem;
   font-size: 5.6rem;
-  margin-bottom: 3.2rem;
+  margin-bottom: 2.4rem;
   line-height: 6.4rem;
 `;
 
@@ -37,9 +37,9 @@ export const Subheading = styled.p`
 `;
 
 export const TestimonialsCards = styled.div`
-  grid-row-gap: 9.6rem;
   width: 100%;
   display: grid;
+  grid-row-gap: 9.6rem;
   grid-template-columns: 1fr 1fr;
 `;
 
@@ -53,15 +53,13 @@ export const TestimonialCard = styled.article`
 export const FiveStarsContainer = styled.div`
   gap: 0.8rem;
   display: flex;
-  margin-bottom: 2.4rem;
+  margin-bottom: 1.2rem;
 `;
 
-export const Star = styled.div`
-  svg {
-    width: 2rem;
-    height: 2rem;
-    color: var(--primary-color);
-  }
+export const Star = styled(HiMiniStar)`
+  width: 2rem;
+  height: 2rem;
+  color: var(--primary-color);
 `;
 
 export const TestimonialText = styled.p`
@@ -70,13 +68,23 @@ export const TestimonialText = styled.p`
   font-weight: 500;
   font-size: 2rem;
   text-align: center;
-  margin-bottom: 2.4rem;
+  margin-bottom: 1.2rem;
+`;
+
+export const PersonContainer = styled.div`
+  gap: 0.8rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 `;
 
 export const TestimonialAvatar = styled.img`
-  width: 5rem;
-  height: 5rem;
+  width: 5.6rem;
+  height: 5.6rem;
+  padding: 0.2rem;
+  margin-bottom: 1.2rem;
   border-radius: 4rem;
+  border: 0.24rem solid var(--primary-color);
 `;
 
 export const TestimonialName = styled.p`
@@ -84,5 +92,4 @@ export const TestimonialName = styled.p`
   font-weight: 500;
   font-size: 1.6rem;
   text-align: center;
-  margin-bottom: 1.6rem;
 `;

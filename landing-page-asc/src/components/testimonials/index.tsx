@@ -1,9 +1,9 @@
 "use client";
 
-import { HiMiniStar } from "react-icons/hi2";
 import {
   FiveStarsContainer,
   Heading,
+  PersonContainer,
   Star,
   StyledTestimonials,
   Subheading,
@@ -15,8 +15,20 @@ import {
   TestimonialText,
 } from "./style";
 
+// A component that renders five stars
+const FiveStars = () => {
+  return (
+    <FiveStarsContainer>
+      {Array(5)
+        .fill(null)
+        .map((_, index) => (
+          <Star key={index} />
+        ))}
+    </FiveStarsContainer>
+  );
+};
+
 export const Testimonials = () => {
-  const stars = ["s", "s", "s", "s", "s"];
   return (
     <StyledTestimonials id="testimonials">
       <TestimonialsContainer>
@@ -24,64 +36,43 @@ export const Testimonials = () => {
         <Subheading>Sua melhor escolha contábel é aqui</Subheading>
         <TestimonialsCards>
           <TestimonialCard>
-            <FiveStarsContainer>
-              {stars.map((star) => (
-                <Star>
-                  <HiMiniStar />
-                </Star>
-              ))}
-            </FiveStarsContainer>
+            <TestimonialAvatar src="https://github.com/udanielnogueira.png" />
+            <FiveStars />
             <TestimonialText>
               Há mais de 5 anos sou cliente do escritório e sou muito bem
               auxiliado sempre, tenho relatórios completos e me sinto seguro.
             </TestimonialText>
             <TestimonialName>Daniel Nogueira</TestimonialName>
-            <TestimonialAvatar src="https://github.com/udanielnogueira.png" />
           </TestimonialCard>
+
           <TestimonialCard>
-            <FiveStarsContainer>
-              {stars.map((star) => (
-                <Star>
-                  <HiMiniStar />
-                </Star>
-              ))}
-            </FiveStarsContainer>
+            <TestimonialAvatar src="https://github.com/udanielnogueira.png" />
+            <FiveStars />
             <TestimonialText>
               Há mais de 5 anos sou cliente do escritório e sou muito bem
               auxiliado sempre, tenho relatórios completos e me sinto seguro.
             </TestimonialText>
             <TestimonialName>Daniel Nogueira</TestimonialName>
-            <TestimonialAvatar src="https://github.com/udanielnogueira.png" />
           </TestimonialCard>
+
           <TestimonialCard>
-            <FiveStarsContainer>
-              {stars.map((star) => (
-                <Star>
-                  <HiMiniStar />
-                </Star>
-              ))}
-            </FiveStarsContainer>
+            <TestimonialAvatar src="https://github.com/udanielnogueira.png" />
+            <FiveStars />
             <TestimonialText>
               Há mais de 5 anos sou cliente do escritório e sou muito bem
               auxiliado sempre, tenho relatórios completos e me sinto seguro.
             </TestimonialText>
             <TestimonialName>Daniel Nogueira</TestimonialName>
-            <TestimonialAvatar src="https://github.com/udanielnogueira.png" />
           </TestimonialCard>
+
           <TestimonialCard>
-            <FiveStarsContainer>
-              {stars.map((star) => (
-                <Star>
-                  <HiMiniStar />
-                </Star>
-              ))}
-            </FiveStarsContainer>
+            <TestimonialAvatar src="https://github.com/udanielnogueira.png" />
+            <FiveStars />
             <TestimonialText>
               Há mais de 5 anos sou cliente do escritório e sou muito bem
               auxiliado sempre, tenho relatórios completos e me sinto seguro.
             </TestimonialText>
             <TestimonialName>Daniel Nogueira</TestimonialName>
-            <TestimonialAvatar src="https://github.com/udanielnogueira.png" />
           </TestimonialCard>
         </TestimonialsCards>
       </TestimonialsContainer>
