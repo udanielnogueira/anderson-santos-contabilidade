@@ -25,8 +25,8 @@ export const ContactTitle = styled.div`
   justify-content: center;
 
   svg {
-    height: 3.2rem;
     width: 3.2rem;
+    height: 3.2rem;
     margin-top: 0.8rem;
     animation: sliding 2000ms ease-in-out infinite;
 
@@ -56,8 +56,9 @@ export const ContactElementsWrapper = styled.div`
   justify-content: space-between;
 `;
 
-export const ContactElement = styled.article`
+export const ContactElement = styled.a`
   gap: 0.8rem;
+  color: white;
   display: flex;
   align-items: center;
 

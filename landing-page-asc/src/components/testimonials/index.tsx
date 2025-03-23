@@ -33,7 +33,7 @@ export const Testimonials = () => {
     <StyledTestimonials id="testimonials">
       <TestimonialsContainer>
         <Heading>Clientes satisfeitos com o nosso escritório</Heading>
-        <Subheading>Sua melhor escolha contábel é aqui</Subheading>
+        <Subheading>Sua melhor escolha contábil é aqui</Subheading>
         <TestimonialsCards>
           <TestimonialCard>
             <TestimonialAvatar src="https://github.com/udanielnogueira.png" />

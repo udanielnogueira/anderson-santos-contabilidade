@@ -16,7 +16,7 @@ export const ServicesContainer = styled.div`
   justify-content: center;
 `;
 
-export const ServicesContainerIcon = styled.a`
+export const ServicesIconContainer = styled.a`
   animation: moving 1600ms ease-in-out infinite alternate;
 
   @keyframes moving {
@@ -68,7 +68,6 @@ export const ServiceCard = styled.article`
   flex-direction: column;
   justify-content: center;
 
-  cursor: pointer;
   padding: 4.8rem 0;
   border-radius: 1rem;
   transition: 400ms ease-in-out;

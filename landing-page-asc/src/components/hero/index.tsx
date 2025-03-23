@@ -25,7 +25,10 @@ export const Hero = () => {
           </Subheadline>
           <HeroButtonsContainer>
             <HeroButton href="#services">Serviços</HeroButton>
-            <HeroButtonBordered>
+            <HeroButtonBordered
+              href="https://api.whatsapp.com/send?phone=5521966400919"
+              target="blank"
+            >
               <ArrowRight />
               Fale conosco
             </HeroButtonBordered>

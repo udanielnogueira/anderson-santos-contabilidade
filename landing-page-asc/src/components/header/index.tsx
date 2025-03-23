@@ -31,7 +31,10 @@ export const Header = () => {
               </LinkItem>
             ))}
           </LinkList>
-          <HeaderButton href="#">
+          <HeaderButton
+            href="https://api.whatsapp.com/send?phone=5521966400919"
+            target="blank"
+          >
             <ArrowRight />
             Fale conosco
           </HeaderButton>
