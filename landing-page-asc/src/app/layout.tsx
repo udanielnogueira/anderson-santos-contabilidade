@@ -14,6 +14,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
+      <head>
+        <title>ASSC</title>
+        <meta
+          name="description"
+          content="Conheça o nosso escritório de Contabilidade"
+        />
+      </head>
       <body className={hankenGrotesk.className}>
         <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
       </body>

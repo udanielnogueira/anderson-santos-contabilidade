@@ -27,7 +27,10 @@ export const Services = () => {
   return (
     <StyledServices id="services">
       <ServicesContainer>
-        <ServicesIconContainer href="#services">
+        <ServicesIconContainer
+          href="#services"
+          aria-label="Conheça os nossos serviços"
+        >
           <MdKeyboardDoubleArrowDown />
         </ServicesIconContainer>
         <Heading>Confira os serviços do nosso escritório</Heading>

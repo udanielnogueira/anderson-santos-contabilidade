@@ -28,7 +28,7 @@ export const Heading = styled.h2`
 `;
 
 export const Subheading = styled.p`
-  color: gray;
+  color: #565656;
   max-width: 72rem;
   font-weight: 400;
   font-size: 2rem;
@@ -88,7 +88,7 @@ export const TestimonialAvatar = styled.img`
 `;
 
 export const TestimonialName = styled.p`
-  color: gray;
+  color: #565656;
   font-weight: 500;
   font-size: 1.6rem;
   text-align: center;

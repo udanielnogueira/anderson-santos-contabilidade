@@ -27,7 +27,7 @@ export const Headline = styled.h1`
 `;
 
 export const Subheadline = styled.p`
-  color: gray;
+  color: #565656;
   max-width: 72rem;
   font-weight: 400;
   font-size: 2.4rem;

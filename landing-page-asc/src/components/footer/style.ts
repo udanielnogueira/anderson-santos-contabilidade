@@ -23,7 +23,7 @@ export const CompanyName = styled.p`
 `;
 
 export const CompanyCopyright = styled.p`
-  color: gray;
+  color: #565656;
   font-weight: 500;
   font-size: 1.6rem;
 
@@ -38,7 +38,7 @@ export const CompanyCopyright = styled.p`
 `;
 
 export const CompanyDev = styled.div`
-  color: gray;
+  color: #565656;
   font-weight: 500;
   font-size: 1.6rem;
 

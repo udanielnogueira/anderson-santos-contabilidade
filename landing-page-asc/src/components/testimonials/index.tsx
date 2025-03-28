@@ -36,7 +36,10 @@ export const Testimonials = () => {
         <Subheading>Sua melhor escolha contábil é aqui</Subheading>
         <TestimonialsCards>
           <TestimonialCard>
-            <TestimonialAvatar src="https://github.com/udanielnogueira.png" />
+            <TestimonialAvatar
+              src="https://github.com/udanielnogueira.png"
+              alt="Foto de perfil da pessoa que está dando o depoimento"
+            />
             <FiveStars />
             <TestimonialText>
               Há mais de 5 anos sou cliente do escritório e sou muito bem
@@ -46,7 +49,10 @@ export const Testimonials = () => {
           </TestimonialCard>
 
           <TestimonialCard>
-            <TestimonialAvatar src="https://github.com/udanielnogueira.png" />
+            <TestimonialAvatar
+              src="https://github.com/udanielnogueira.png"
+              alt="Foto de perfil da pessoa que está dando o depoimento"
+            />
             <FiveStars />
             <TestimonialText>
               Há mais de 5 anos sou cliente do escritório e sou muito bem
@@ -56,7 +62,10 @@ export const Testimonials = () => {
           </TestimonialCard>
 
           <TestimonialCard>
-            <TestimonialAvatar src="https://github.com/udanielnogueira.png" />
+            <TestimonialAvatar
+              src="https://github.com/udanielnogueira.png"
+              alt="Foto de perfil da pessoa que está dando o depoimento"
+            />
             <FiveStars />
             <TestimonialText>
               Há mais de 5 anos sou cliente do escritório e sou muito bem
@@ -66,7 +75,10 @@ export const Testimonials = () => {
           </TestimonialCard>
 
           <TestimonialCard>
-            <TestimonialAvatar src="https://github.com/udanielnogueira.png" />
+            <TestimonialAvatar
+              src="https://github.com/udanielnogueira.png"
+              alt="Foto de perfil da pessoa que está dando o depoimento"
+            />
             <FiveStars />
             <TestimonialText>
               Há mais de 5 anos sou cliente do escritório e sou muito bem

@@ -46,7 +46,7 @@ export const Heading = styled.h2`
 `;
 
 export const Subheading = styled.p`
-  color: gray;
+  color: #565656;
   max-width: 72rem;
   font-weight: 400;
   font-size: 2rem;
@@ -96,7 +96,7 @@ export const CardTitle = styled.h3`
 `;
 
 export const CardText = styled.p`
-  color: gray;
+  color: #565656;
   text-align: center;
   font-weight: 400;
   font-size: 1.8rem;
