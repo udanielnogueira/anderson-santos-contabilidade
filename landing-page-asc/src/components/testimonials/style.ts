@@ -56,7 +56,7 @@ export const FiveStarsContainer = styled.div`
 export const Star = styled(HiMiniStar)`
   width: 2rem;
   height: 2rem;
-  color: var(--primary-color);
+  color: var(--text-color-1);
 `;
 
 export const TestimonialText = styled.p`
@@ -82,7 +82,7 @@ export const TestimonialAvatar = styled.div`
     padding: 0.2rem;
     margin-bottom: 1.2rem;
     border-radius: 4rem;
-    border: 0.24rem solid var(--primary-color);
+    border: 0.24rem solid var(--text-color-1);
   }
 `;
 

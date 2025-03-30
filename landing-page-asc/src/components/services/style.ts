@@ -30,7 +30,7 @@ export const ServicesIconContainer = styled.a`
   svg {
     width: 6.4rem;
     height: 6.4rem;
-    color: var(--primary-color);
+    color: var(--bg-color);
   }
 `;
 
@@ -83,7 +83,7 @@ export const CardImage = styled.div`
   svg {
     width: 4rem;
     height: 4rem;
-    color: var(--primary-color);
+    color: var(--bg-color);
   }
 `;
 

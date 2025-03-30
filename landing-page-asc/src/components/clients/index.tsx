@@ -60,7 +60,7 @@ export const Clients: React.FC = () => {
 
   useEffect(() => {
     AOS.init({
-      once: true,
+      once: false,
       duration: 1500,
     });
   }, []);

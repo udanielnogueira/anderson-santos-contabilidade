@@ -18,7 +18,7 @@ export const ClientsContainer = styled.div`
   svg {
     width: 5rem;
     height: 5rem;
-    color: var(--primary-color);
+    color: var(--bg-color);
     animation: move 2000ms ease-in-out infinite;
 
     @keyframes move {
@@ -37,7 +37,7 @@ export const ClientsContainer = styled.div`
 export const Heading = styled.h2`
   color: black;
   text-align: center;
-  font-weight: 700;
+  font-weight: 600;
   max-width: 48rem;
   font-size: 3.2rem;
   margin-bottom: 8rem;

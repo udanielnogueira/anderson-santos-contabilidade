@@ -50,23 +50,22 @@ export const HeroButton = styled.a`
   display: flex;
   align-items: center;
 
-  color: var(--background-color);
+  color: var(--bg-color);
   cursor: pointer;
   font-weight: 600;
   font-size: 1.8rem;
   border-radius: 0rem;
   padding: 1.2rem 3.2rem;
-  background-color: var(--primary-color);
+  background-color: var(--text-color-1);
   transition: 400ms ease-in-out;
 
   &:hover {
-    color: white;
-    background-color: rgb(33, 118, 230);
+    background-color: var(--text-color-2);
   }
 `;
 
 export const ArrowRight = styled(GoArrowDownRight)`
-  color: var(--primary-color);
+  color: var(--text-color-1);
   width: 2.4rem;
   height: 2.4rem;
 `;
@@ -76,7 +75,7 @@ export const HeroButtonBordered = styled.a`
   display: flex;
   align-items: center;
 
-  color: var(--primary-color);
+  color: var(--text-color-1);
   cursor: pointer;
   font-weight: 400;
   font-size: 1.8rem;
@@ -87,6 +86,6 @@ export const HeroButtonBordered = styled.a`
   border: 0.24rem solid transparent;
 
   &:hover {
-    border: 0.24rem solid var(--primary-color);
+    border: 0.24rem solid var(--text-color-1);
   }
 `;

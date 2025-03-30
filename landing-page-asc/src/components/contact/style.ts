@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledContact = styled.section`
-  background-color: var(--primary-color);
+  background-color: var(--bg-color);
 `;
 
 export const ContactContainer = styled.div`
@@ -42,7 +42,7 @@ export const ContactTitle = styled.div`
 `;
 
 export const ContactTitleText = styled.h2`
-  font-weight: 500;
+  font-weight: 600;
   font-size: 3.2rem;
   text-align: center;
 `;
@@ -68,6 +68,6 @@ export const ContactElement = styled.a`
 `;
 
 export const ContactInformation = styled.p`
-  font-weight: 500;
+  font-weight: 400;
   font-size: 1.8rem;
 `;

@@ -29,7 +29,7 @@ import { useEffect } from "react";
 export const Services = () => {
   useEffect(() => {
     AOS.init({
-      once: true,
+      once: false,
       duration: 1500,
     });
   }, []);

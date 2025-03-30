@@ -45,7 +45,7 @@ const FiveStars = () => {
 export const Testimonials = () => {
   useEffect(() => {
     AOS.init({
-      once: true,
+      once: false,
       duration: 1500,
     });
   }, []);
