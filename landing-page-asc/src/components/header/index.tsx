@@ -13,8 +13,9 @@ import {
 export const Header = () => {
   const links = [
     { name: "Home", href: "/" },
-    { name: "Sobre nós", href: "#about-us" },
+    // { name: "Sobre nós", href: "#about-us" },
     { name: "Serviços", href: "#services" },
+    { name: "Clientes", href: "#clients" },
     { name: "Depoimentos", href: "#testimonials" },
     { name: "Contato", href: "#contact" },
   ];

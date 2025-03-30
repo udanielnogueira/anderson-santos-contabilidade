@@ -13,7 +13,6 @@ import {
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { MdOutlineMarkEmailUnread } from "react-icons/md";
 import { PiArrowElbowRightDownLight } from "react-icons/pi";
-import { SiInstagram } from "react-icons/si";
 
 export const Contact = () => {
   return (

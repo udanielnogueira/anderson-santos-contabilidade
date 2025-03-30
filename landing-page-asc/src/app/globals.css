@@ -1,7 +1,10 @@
 :root {
   font-size: 62.5%;
 
-  --primary-color: rgb(22, 72, 179);
+  --background-color: #02182c;
+  --primary-color: rgb(34, 202, 231);
+  --text-color-1: #f9f9f9;
+  --text-color-2: #f0f0f0;
 }
 
 * {
@@ -17,6 +20,7 @@ html {
 body {
   font-size: 1.6rem;
   font-style: normal;
+  background-color: var(--background-color);
 }
 
 a {

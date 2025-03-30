@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
-export const StyledFooter = styled.section`
-  border: 1px solid blue;
-`;
+export const StyledFooter = styled.section``;
 
 export const FooterContainer = styled.div`
   margin: 0 auto;
@@ -12,34 +10,32 @@ export const FooterContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  border: 1px solid red;
 `;
 
 export const CompanyName = styled.p`
-  color: black;
+  color: var(--text-color-1);
   font-weight: 600;
   font-size: 1.6rem;
 `;
 
 export const CompanyCopyright = styled.p`
-  color: #565656;
-  font-weight: 500;
+  color: var(--text-color-2);
+  font-weight: 300;
   font-size: 1.6rem;
 
   display: flex;
   align-items: center;
 
   span {
-    font-weight: 700;
+    font-weight: 400;
     font-size: 1.8rem;
     margin-right: 0.4rem;
   }
 `;
 
 export const CompanyDev = styled.div`
-  color: #565656;
-  font-weight: 500;
+  color: var(--text-color-2);
+  font-weight: 400;
   font-size: 1.6rem;
 
   a {

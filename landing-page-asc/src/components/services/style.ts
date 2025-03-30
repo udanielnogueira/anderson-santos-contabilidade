@@ -1,13 +1,12 @@
 import styled from "styled-components";
 
 export const StyledServices = styled.section`
-  border: 1px solid blue;
+  background-color: white;
 `;
 
 export const ServicesContainer = styled.div`
   margin: 0 auto;
   max-width: 128rem;
-  border: 1px solid red;
 
   height: 96rem;
   display: flex;
@@ -57,8 +56,8 @@ export const Subheading = styled.p`
 export const ServicesCards = styled.div`
   width: 100%;
   display: grid;
-  grid-row-gap: 2.4rem;
-  grid-column-gap: 2.4rem;
+  grid-row-gap: 3.2rem;
+  grid-column-gap: 3.2rem;
   grid-template-columns: 1fr 1fr 1fr;
 `;
 
@@ -71,7 +70,7 @@ export const ServiceCard = styled.article`
   padding: 4.8rem 0;
   border-radius: 1rem;
   transition: 400ms ease-in-out;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 
   &:hover {
     transform: translateY(-0.8rem);

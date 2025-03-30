@@ -1,4 +1,6 @@
 "use client";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import { TbReportMoney } from "react-icons/tb";
 import {
@@ -22,8 +24,16 @@ import {
 } from "react-icons/md";
 import { LuGlasses } from "react-icons/lu";
 import { PiSuitcaseSimpleBold } from "react-icons/pi";
+import { useEffect } from "react";
 
 export const Services = () => {
+  useEffect(() => {
+    AOS.init({
+      once: true,
+      duration: 1500,
+    });
+  }, []);
+
   return (
     <StyledServices id="services">
       <ServicesContainer>
@@ -33,9 +43,11 @@ export const Services = () => {
         >
           <MdKeyboardDoubleArrowDown />
         </ServicesIconContainer>
-        <Heading>Confira os serviços do nosso escritório</Heading>
-        <Subheading>Praticidade e confiança na sua gestão</Subheading>
-        <ServicesCards>
+        <div data-aos="fade-up">
+          <Heading>Confira os serviços do nosso escritório</Heading>
+          <Subheading>Praticidade e confiança na sua gestão</Subheading>
+        </div>
+        <ServicesCards data-aos="fade-up" data-aos-delay="500">
           <ServiceCard>
             <CardImage>
               <FaRegMoneyBillAlt />

@@ -1,4 +1,7 @@
 "use client";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import background from "./assets/bg-1.jpg";
 
 import {
   HeroButtonsContainer,
@@ -10,14 +13,22 @@ import {
   Subheadline,
   ArrowRight,
 } from "./style";
+import { useEffect } from "react";
 
 export const Hero = () => {
+  useEffect(() => {
+    AOS.init({
+      once: false,
+      duration: 2000,
+    });
+  }, []);
+
   return (
     <>
       <StyledHero>
-        <HeroContainer>
+        <HeroContainer data-aos="fade-up">
           <Headline>
-            A Contabilidade transparente e responsável que fortalece sua missão
+            Contabilidade transparente e responsável que fortalece a sua missão
           </Headline>
           <Subheadline>
             Cuidamos de toda a burocracia no nosso escritório, com soluções

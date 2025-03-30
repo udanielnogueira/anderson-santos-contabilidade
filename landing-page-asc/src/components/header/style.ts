@@ -2,14 +2,11 @@ import styled from "styled-components";
 import { SiHdfcbank } from "react-icons/si";
 import { GoArrowDownRight } from "react-icons/go";
 
-export const StyledHeader = styled.header`
-  border: 1px solid blue;
-`;
+export const StyledHeader = styled.header``;
 
 export const HeaderContainer = styled.nav`
   margin: 0 auto;
   max-width: 128rem;
-  border: 1px solid red;
 
   height: 8rem;
   display: flex;
@@ -28,7 +25,7 @@ export const Logo = styled(SiHdfcbank)`
 `;
 
 export const ArrowRight = styled(GoArrowDownRight)`
-  color: white;
+  color: var(--background-color);
   width: 2.4rem;
   height: 2.4rem;
 `;
@@ -40,11 +37,11 @@ export const LinkList = styled.ul`
 `;
 
 export const LinkItem = styled.li`
-  font-weight: 500;
+  font-weight: 300;
   font-size: 1.6rem;
 
   a {
-    color: black;
+    color: var(--text-color-1);
     transition: 100ms ease-in-out; // 100ms == 0.1s
 
     &:hover {
@@ -58,9 +55,9 @@ export const HeaderButton = styled.a`
   display: flex;
   align-items: center;
 
-  color: white;
+  color: var(--background-color);
   cursor: pointer;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 1.6rem;
   border-radius: 0rem;
   padding: 0.8rem 2.4rem;

@@ -1,16 +1,14 @@
 import styled from "styled-components";
 
 export const StyledContact = styled.section`
-  border: 1px solid blue;
   background-color: var(--primary-color);
 `;
 
 export const ContactContainer = styled.div`
   margin: 0 auto;
   max-width: 128rem;
-  border: 1px solid red;
 
-  color: white;
+  color: var(--text-color-1);
   height: 24rem;
   display: flex;
   align-items: center;
@@ -58,7 +56,7 @@ export const ContactElementsWrapper = styled.div`
 
 export const ContactElement = styled.a`
   gap: 0.8rem;
-  color: white;
+  color: var(--text-color-1);
   display: flex;
   align-items: center;
 
@@ -70,6 +68,6 @@ export const ContactElement = styled.a`
 `;
 
 export const ContactInformation = styled.p`
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1.8rem;
 `;
