@@ -87,7 +87,7 @@ export const Testimonials = () => {
             <TestimonialText>
               Eficiência, profissionalismo e transparência são as marcas do
               atendimento do escritório ao Instituto Sara desde o início de
-              nossa parceria. São anos de parceria e nosso únnico registro é
+              nossa parceria. São anos de parceria e o nosso único registro é
               gratidão!
             </TestimonialText>
             <TestimonialName>

@@ -18,14 +18,14 @@ export const Logo = styled(SiHdfcbank)`
   width: 3.2rem;
   height: 3.2rem;
   cursor: pointer;
-  color: var(--text-color-1);
+  color: var(--white-main);
 
   // Adjusting to same width of HeaderButton
   margin-right: 14.2rem;
 `;
 
 export const ArrowRight = styled(GoArrowDownRight)`
-  color: var(--bg-color);
+  color: var(--dark-sub);
   width: 2.4rem;
   height: 2.4rem;
 `;
@@ -41,11 +41,11 @@ export const LinkItem = styled.li`
   font-size: 1.6rem;
 
   a {
-    color: var(--text-color-1);
+    color: var(--white-main);
     transition: 100ms ease-in-out; // 100ms == 0.1s
 
     &:hover {
-      border-bottom: 0.4rem solid var(--text-color-1);
+      border-bottom: 0.4rem solid var(--white-main);
     }
   }
 `;
@@ -55,14 +55,14 @@ export const HeaderButton = styled.a`
   display: flex;
   align-items: center;
 
-  color: var(--bg-color);
+  color: var(--dark-sub);
   cursor: pointer;
   font-weight: 600;
   font-size: 1.6rem;
   border-radius: 0rem;
   padding: 0.8rem 2.4rem;
   transition: 400ms ease-in-out;
-  background-color: var(--text-color-1);
+  background-color: var(--white-main);
 
   &:hover {
     padding: 0.8rem 4.8rem;

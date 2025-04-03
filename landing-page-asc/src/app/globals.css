@@ -1,10 +1,20 @@
 :root {
   font-size: 62.5%;
 
-  --bg-color: #02182c;
+  /* zinc 50 */
+  --white-main: oklch(98.5% 0 0);
+
+  /* zinc 100 */
+  --white-sub: oklch(96.7% 0.001 286.375);
+
+  /* zinc 800 */
+  /* --dark-main: oklch(27.4% 0.006 286.033); */
+  --dark-main: #27272a;
+
+  /* zinc 700 */
+  --dark-sub: oklch(37% 0.013 285.805);
+
   --primary-color: rgb(34, 202, 231);
-  --text-color-1: #f9f9f9;
-  --text-color-2: #f0f0f0;
 }
 
 * {
@@ -20,7 +30,6 @@ html {
 body {
   font-size: 1.6rem;
   font-style: normal;
-  background-color: var(--bg-color);
 }
 
 a {

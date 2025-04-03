@@ -1,12 +1,7 @@
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 import { GoArrowDownRight } from "react-icons/go";
-// import bg from "./assets/bg-1.jpg";
 
-export const StyledHero = styled.section`
-  /* background-size: cover;
-  background-position: center;
-  background-image: url("/bg-2.jpg"); */
-`;
+export const StyledHero = styled.section``;
 
 export const HeroContainer = styled.div`
   margin: 0 auto;
@@ -20,7 +15,7 @@ export const HeroContainer = styled.div`
 `;
 
 export const Headline = styled.h1`
-  color: var(--text-color-1);
+  color: var(--white-main);
   text-align: center;
   font-weight: 700;
   font-size: 6.4rem;
@@ -30,7 +25,7 @@ export const Headline = styled.h1`
 `;
 
 export const Subheadline = styled.p`
-  color: var(--text-color-2);
+  color: var(--white-sub);
   max-width: 72rem;
   font-weight: 300;
   font-size: 2.4rem;
@@ -50,22 +45,22 @@ export const HeroButton = styled.a`
   display: flex;
   align-items: center;
 
-  color: var(--bg-color);
+  color: var(--dark-sub);
   cursor: pointer;
   font-weight: 600;
   font-size: 1.8rem;
   border-radius: 0rem;
   padding: 1.2rem 3.2rem;
-  background-color: var(--text-color-1);
-  transition: 400ms ease-in-out;
+  background-color: var(--white-main);
+  transition: 1600ms ease-in-out;
 
   &:hover {
-    background-color: var(--text-color-2);
+    text-decoration: underline;
   }
 `;
 
 export const ArrowRight = styled(GoArrowDownRight)`
-  color: var(--text-color-1);
+  color: var(--white-main);
   width: 2.4rem;
   height: 2.4rem;
 `;
@@ -75,7 +70,7 @@ export const HeroButtonBordered = styled.a`
   display: flex;
   align-items: center;
 
-  color: var(--text-color-1);
+  color: var(--white-main);
   cursor: pointer;
   font-weight: 400;
   font-size: 1.8rem;
@@ -86,6 +81,6 @@ export const HeroButtonBordered = styled.a`
   border: 0.24rem solid transparent;
 
   &:hover {
-    border: 0.24rem solid var(--text-color-1);
+    border: 0.24rem solid var(--white-main);
   }
 `;

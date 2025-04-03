@@ -4,6 +4,7 @@ import {
   ContactContainer,
   ContactElement,
   ContactElementsWrapper,
+  ContactIcon,
   ContactInformation,
   ContactTitle,
   ContactTitleText,
@@ -17,10 +18,12 @@ import { PiArrowElbowRightDownLight } from "react-icons/pi";
 export const Contact = () => {
   return (
     <StyledContact id="contact">
-      <ContactContainer>
+      <ContactContainer data-aos="fade-up" data-aos-delay="500">
         <ContactTitle>
           <ContactTitleText>Nossos contatos</ContactTitleText>
-          <PiArrowElbowRightDownLight />
+          <ContactIcon href="#contact" aria-label="Nossos contatos">
+            <PiArrowElbowRightDownLight />
+          </ContactIcon>
         </ContactTitle>
         <ContactElementsWrapper>
           <ContactElement

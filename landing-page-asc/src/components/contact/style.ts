@@ -1,14 +1,13 @@
 import styled from "styled-components";
 
 export const StyledContact = styled.section`
-  background-color: var(--bg-color);
+  padding-bottom: 4.8rem;
 `;
 
 export const ContactContainer = styled.div`
   margin: 0 auto;
   max-width: 128rem;
 
-  color: var(--text-color-1);
   height: 24rem;
   display: flex;
   align-items: center;
@@ -21,11 +20,14 @@ export const ContactTitle = styled.div`
   margin-bottom: 4rem;
   align-items: center;
   justify-content: center;
+`;
 
+export const ContactIcon = styled.a`
   svg {
     width: 3.2rem;
     height: 3.2rem;
     margin-top: 0.8rem;
+    color: var(--white-sub);
     animation: sliding 2000ms ease-in-out infinite;
 
     @keyframes sliding {
@@ -42,9 +44,10 @@ export const ContactTitle = styled.div`
 `;
 
 export const ContactTitleText = styled.h2`
-  font-weight: 600;
+  font-weight: 500;
   font-size: 3.2rem;
   text-align: center;
+  color: var(--white-main);
 `;
 
 export const ContactElementsWrapper = styled.div`
@@ -56,7 +59,7 @@ export const ContactElementsWrapper = styled.div`
 
 export const ContactElement = styled.a`
   gap: 0.8rem;
-  color: var(--text-color-1);
+  color: var(--white-main);
   display: flex;
   align-items: center;
 
@@ -68,6 +71,6 @@ export const ContactElement = styled.a`
 `;
 
 export const ContactInformation = styled.p`
-  font-weight: 400;
+  font-weight: 300;
   font-size: 1.8rem;
 `;

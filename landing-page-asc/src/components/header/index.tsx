@@ -37,7 +37,7 @@ export const Header = () => {
             target="blank"
           >
             <ArrowRight />
-            Fale conosco
+            <span>Fale conosco</span>
           </HeaderButton>
         </HeaderContainer>
       </StyledHeader>

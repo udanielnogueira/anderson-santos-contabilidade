@@ -18,42 +18,34 @@ export const ClientsContainer = styled.div`
   svg {
     width: 5rem;
     height: 5rem;
-    color: var(--bg-color);
-    animation: move 2000ms ease-in-out infinite;
+    color: var(--dark-sub);
+    animation: move 1600ms ease-in-out infinite;
 
     @keyframes move {
       from {
         opacity: 0;
-        transform: translateX(1.6rem);
+        transform: translateX(3.2rem);
       }
       to {
         opacity: 100%;
-        transform: translate(0);
+        transform: translate(-3.2rem);
       }
     }
   }
 `;
 
 export const Heading = styled.h2`
-  color: black;
+  color: var(--dark-main);
   text-align: center;
   font-weight: 600;
-  max-width: 48rem;
-  font-size: 3.2rem;
-  margin-bottom: 8rem;
-  line-height: 4.8rem;
-`;
-
-export const Subheading = styled.p`
-  color: #565656;
-  max-width: 72rem;
-  font-weight: 400;
-  font-size: 2rem;
-  text-align: center;
-  margin-bottom: 8rem;
+  max-width: 60rem;
+  font-size: 4rem;
+  margin-bottom: 12rem;
+  line-height: 5.6rem;
 `;
 
 export const LogosWrapper = styled.div`
+  cursor: pointer;
   max-width: 96rem;
   margin-bottom: 6.4rem;
 `;
@@ -75,8 +67,8 @@ export const ClientLogo = styled.div`
 `;
 
 export const ClientName = styled.p`
-  color: #565656;
-  max-width: 12rem;
+  color: var(--dark-sub);
+  max-width: 14rem;
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 `;

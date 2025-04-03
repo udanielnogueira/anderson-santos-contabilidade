@@ -13,7 +13,7 @@ import {
   ServicesContainer,
   StyledServices,
   Subheading,
-  ServicesIconContainer,
+  ServicesContainerIcon,
 } from "./style";
 import { FaRegMoneyBillAlt } from "react-icons/fa";
 
@@ -37,17 +37,17 @@ export const Services = () => {
   return (
     <StyledServices id="services">
       <ServicesContainer>
-        <ServicesIconContainer
+        <ServicesContainerIcon
           href="#services"
           aria-label="Conheça os nossos serviços"
         >
           <MdKeyboardDoubleArrowDown />
-        </ServicesIconContainer>
+        </ServicesContainerIcon>
         <div data-aos="fade-up">
           <Heading>Confira os serviços do nosso escritório</Heading>
           <Subheading>Praticidade e confiança na sua gestão</Subheading>
         </div>
-        <ServicesCards data-aos="fade-up" data-aos-delay="500">
+        <ServicesCards data-aos="fade-up" data-aos-delay="550">
           <ServiceCard>
             <CardImage>
               <FaRegMoneyBillAlt />

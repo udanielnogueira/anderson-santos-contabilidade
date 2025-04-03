@@ -15,7 +15,7 @@ export const ServicesContainer = styled.div`
   justify-content: center;
 `;
 
-export const ServicesIconContainer = styled.a`
+export const ServicesContainerIcon = styled.a`
   animation: moving 1600ms ease-in-out infinite alternate;
 
   @keyframes moving {
@@ -30,12 +30,12 @@ export const ServicesIconContainer = styled.a`
   svg {
     width: 6.4rem;
     height: 6.4rem;
-    color: var(--bg-color);
+    color: var(--dark-sub);
   }
 `;
 
 export const Heading = styled.h2`
-  color: black;
+  color: var(--dark-main);
   text-align: center;
   font-weight: 600;
   max-width: 72rem;
@@ -45,7 +45,7 @@ export const Heading = styled.h2`
 `;
 
 export const Subheading = styled.p`
-  color: #565656;
+  color: var(--dark-sub);
   max-width: 72rem;
   font-weight: 400;
   font-size: 2rem;
@@ -66,6 +66,7 @@ export const ServiceCard = styled.article`
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  background-color: #fdfdfd;
 
   padding: 4.8rem 0;
   border-radius: 1rem;
@@ -88,14 +89,14 @@ export const CardImage = styled.div`
 `;
 
 export const CardTitle = styled.h3`
-  color: black;
+  color: var(--dark-main);
   font-weight: 600;
   font-size: 2.4rem;
   margin-bottom: 1.6rem;
 `;
 
 export const CardText = styled.p`
-  color: #565656;
+  color: var(--dark-sub);
   text-align: center;
   font-weight: 400;
   font-size: 1.8rem;

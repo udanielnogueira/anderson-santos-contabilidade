@@ -9,7 +9,7 @@ import "swiper/css";
 
 import Image from "next/image";
 import igrejaLivres from "./assets/igreja-livres-oficial.webp";
-import igrejaPresbiterianaTomazCoelho from "./assets/igreja-presbiteriana-tomaz-coelho.webp";
+import igrejaPresbiterianaThomazCoelho from "./assets/igreja-presbiteriana-thomaz-coelho.webp";
 import igrejaPresbiterianaPiedade from "./assets/igreja-presbiteriana-piedade.webp";
 import igrejaPresbiterianaMadureira from "./assets/igreja-presbiteriana-madureira.webp";
 import institutoEduAraujoDutra from "./assets/instituto-edu-araujo-dutra.webp";
@@ -19,7 +19,6 @@ import {
   StyledClients,
   ClientsContainer,
   ClientLogo,
-  Subheading,
   Heading,
   LogosWrapper,
   ClientName,
@@ -30,26 +29,26 @@ import { useEffect } from "react";
 
 export const Clients: React.FC = () => {
   const clients = [
-    { logo: igrejaLivres, alt: "Logo da Igreja Livres", name: "Igreja Livres" },
+    {
+      logo: igrejaPresbiterianaThomazCoelho,
+      alt: "Logo da Igreja Presbiteriana de Thomaz Coelho",
+      name: "Igreja Presbiteriana de Thomaz Coelho",
+    },
     {
       logo: institutoSara,
       alt: "Logo do Instituto Sara",
       name: "Instituto Sara",
     },
+    { logo: igrejaLivres, alt: "Logo da Igreja Livres", name: "Igreja Livres" },
     {
-      logo: igrejaPresbiterianaTomazCoelho,
-      alt: "Logo da Igreja Presbiteriana de Tomaz Coelho",
-      name: "Igreja Presbiteriana de Tomaz Coelho",
+      logo: igrejaPresbiterianaMadureira,
+      alt: "Logo da Igreja Presbiteriana de Madureira",
+      name: "Igreja Presbiteriana de Madureira",
     },
     {
       logo: igrejaPresbiterianaPiedade,
       alt: "Logo da Igreja Presbiteriana de Piedade",
       name: "Igreja Presbiteriana de Piedade",
-    },
-    {
-      logo: igrejaPresbiterianaMadureira,
-      alt: "Logo da Igreja Presbiteriana de Madureira",
-      name: "Igreja Presbiteriana de Madureira",
     },
     {
       logo: institutoEduAraujoDutra,

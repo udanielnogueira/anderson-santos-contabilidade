@@ -1,21 +1,18 @@
 import { Clients } from "@/components/clients";
 import { Contact } from "@/components/contact";
 import { Footer } from "@/components/footer";
-import { Header } from "@/components/header";
-import { Hero } from "@/components/hero";
 import { Services } from "@/components/services";
 import { Testimonials } from "@/components/testimonials";
-import { url } from "inspector";
+import { HeaderPlusHeroContainer } from "@/components/headerPlusHeroContainer";
+import { TestimonialsPlusContactContainer } from "@/components/testimonialsPlusContactContainer";
 
 export default function Home() {
   return (
     <>
-      <Header />
-      <Hero />
+      <HeaderPlusHeroContainer />
       <Services />
       <Clients />
-      <Testimonials />
-      <Contact />
+      <TestimonialsPlusContactContainer />
       <Footer />
     </>
   );
