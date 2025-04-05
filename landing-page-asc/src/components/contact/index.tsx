@@ -9,6 +9,7 @@ import {
   ContactTitle,
   ContactTitleText,
   StyledContact,
+  Subheading,
 } from "./style";
 
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
@@ -20,11 +21,12 @@ export const Contact = () => {
     <StyledContact id="contact">
       <ContactContainer data-aos="fade-up" data-aos-delay="500">
         <ContactTitle>
-          <ContactTitleText>Nossos contatos</ContactTitleText>
+          <ContactTitleText>Fale conosco</ContactTitleText>
           <ContactIcon href="#contact" aria-label="Nossos contatos">
             <PiArrowElbowRightDownLight />
           </ContactIcon>
         </ContactTitle>
+        <Subheading>Nossos canais de comunicação</Subheading>
         <ContactElementsWrapper>
           <ContactElement
             href="mailto:andersonsscontabil@gmail.com"

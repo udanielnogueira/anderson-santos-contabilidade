@@ -13,7 +13,6 @@ import {
   ServicesContainer,
   StyledServices,
   Subheading,
-  ServicesContainerIcon,
 } from "./style";
 import { FaRegMoneyBillAlt } from "react-icons/fa";
 
@@ -37,15 +36,9 @@ export const Services = () => {
   return (
     <StyledServices id="services">
       <ServicesContainer>
-        <ServicesContainerIcon
-          href="#services"
-          aria-label="Conheça os nossos serviços"
-        >
-          <MdKeyboardDoubleArrowDown />
-        </ServicesContainerIcon>
         <div data-aos="fade-up">
-          <Heading>Confira os serviços do nosso escritório</Heading>
-          <Subheading>Praticidade e confiança na sua gestão</Subheading>
+          <Heading>Confira os serviços disponíveis</Heading>
+          <Subheading>para sua gestão!</Subheading>
         </div>
         <ServicesCards data-aos="fade-up" data-aos-delay="550">
           <ServiceCard>
@@ -54,7 +47,7 @@ export const Services = () => {
             </CardImage>
             <CardTitle>Contabilidade Geral</CardTitle>
             <CardText>
-              Escrituração contábil completa, com elaboração de balanços e
+              Uma escrituração contábil completa, com elaboração de balanços e
               relatórios.
             </CardText>
           </ServiceCard>
@@ -63,7 +56,7 @@ export const Services = () => {
             <CardImage>
               <TbReportMoney />
             </CardImage>
-            <CardTitle>Departamento Fiscal e Tributário</CardTitle>
+            <CardTitle>Fiscal e Tributário</CardTitle>
             <CardText>
               Apuração de impostos, planejamento tributário e obrigações
               acessórias.
@@ -108,7 +101,8 @@ export const Services = () => {
             </CardImage>
             <CardTitle>Mais serviços</CardTitle>
             <CardText>
-              Entrega de declaração de IR, cadastro em certificações e outros.
+              Entrega de declaração de IR, cadastro em certificações e outros
+              encargos.
             </CardText>
           </ServiceCard>
         </ServicesCards>

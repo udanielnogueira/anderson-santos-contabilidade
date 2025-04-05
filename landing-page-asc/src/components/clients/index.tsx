@@ -23,6 +23,7 @@ import {
   LogosWrapper,
   ClientName,
   LogoElement,
+  Subheading,
 } from "./style";
 import { PiHandSwipeRight } from "react-icons/pi";
 import { useEffect } from "react";
@@ -67,9 +68,10 @@ export const Clients: React.FC = () => {
   return (
     <StyledClients id="clients">
       <ClientsContainer>
-        <Heading data-aos="fade-up">
-          Alguns dos clientes que aprovam o nosso ótimo trabalho
-        </Heading>
+        <div data-aos="fade-up">
+          <Heading>Várias organizações sendo atendidas</Heading>
+          <Subheading>Conheça alguns clientes</Subheading>
+        </div>
         <LogosWrapper data-aos="fade-up" data-aos-delay="500">
           <Swiper
             spaceBetween={0}

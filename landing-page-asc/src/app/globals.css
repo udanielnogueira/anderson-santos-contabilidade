@@ -7,14 +7,32 @@
   /* zinc 100 */
   --white-sub: oklch(96.7% 0.001 286.375);
 
-  /* zinc 800 */
-  /* --dark-main: oklch(27.4% 0.006 286.033); */
-  --dark-main: #27272a;
+  /* zinc 900 */
+  --dark-main: oklch(21% 0.006 285.885);
 
   /* zinc 700 */
   --dark-sub: oklch(37% 0.013 285.805);
 
-  --primary-color: rgb(34, 202, 231);
+  /* rose 500 */
+  --primary-color: oklch(64.5% 0.246 16.439);
+
+  /* amber 600 */
+  --primary-color: oklch(66.6% 0.179 58.318);
+
+  /* sky 600 */
+  --primary-color: oklch(58.8% 0.158 241.966);
+
+  /* sky 500 */
+  --primary-color: oklch(62.3% 0.214 259.815);
+
+  /* amber 200 */
+  --primary-color: oklch(92.4% 0.12 95.746);
+
+  /* amber 100 */
+  --primary-color: oklch(96.2% 0.059 95.617);
+
+  /* sky 950 */
+  --blue: oklch(29.3% 0.066 243.157);
 }
 
 * {

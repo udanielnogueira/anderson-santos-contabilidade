@@ -8,7 +8,7 @@ export const ContactContainer = styled.div`
   margin: 0 auto;
   max-width: 128rem;
 
-  height: 24rem;
+  height: 100vh;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -17,17 +17,33 @@ export const ContactContainer = styled.div`
 
 export const ContactTitle = styled.div`
   display: flex;
-  margin-bottom: 4rem;
   align-items: center;
   justify-content: center;
 `;
 
+export const ContactTitleText = styled.h2`
+  font-weight: 600;
+  font-size: 5.6rem;
+  text-align: center;
+  color: var(--white-main);
+  margin-bottom: 2.4rem;
+`;
+
+export const Subheading = styled.p`
+  color: var(--white-sub);
+  max-width: 72rem;
+  font-weight: 300;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 12rem;
+`;
+
 export const ContactIcon = styled.a`
   svg {
-    width: 3.2rem;
-    height: 3.2rem;
-    margin-top: 0.8rem;
-    color: var(--white-sub);
+    width: 4rem;
+    height: 4rem;
+    margin-top: -1.2rem;
+    color: var(--primary-color);
     animation: sliding 2000ms ease-in-out infinite;
 
     @keyframes sliding {
@@ -41,13 +57,6 @@ export const ContactIcon = styled.a`
       }
     }
   }
-`;
-
-export const ContactTitleText = styled.h2`
-  font-weight: 500;
-  font-size: 3.2rem;
-  text-align: center;
-  color: var(--white-main);
 `;
 
 export const ContactElementsWrapper = styled.div`
@@ -67,6 +76,7 @@ export const ContactElement = styled.a`
     display: flex;
     width: 3.2rem;
     height: 3.2rem;
+    color: var(--primary-color);
   }
 `;
 

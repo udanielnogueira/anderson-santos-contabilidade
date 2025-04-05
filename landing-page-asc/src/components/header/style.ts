@@ -2,13 +2,28 @@ import styled from "styled-components";
 import { SiHdfcbank } from "react-icons/si";
 import { GoArrowDownRight } from "react-icons/go";
 
-export const StyledHeader = styled.header``;
+export const StyledHeader = styled.header`
+  // Fundo semi-transparente
+  background: rgba(0, 0, 0, 0.1);
+
+  // Efeito de desfoque
+  backdrop-filter: blur(7px);
+
+  // Efeito de desfoque para Safari
+  -webkit-backdrop-filter: blur(10px);
+
+  // Sombra suave
+  // box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
+  // Borda suave
+  // border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+`;
 
 export const HeaderContainer = styled.nav`
   margin: 0 auto;
   max-width: 128rem;
 
-  height: 8rem;
+  height: 7.2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -25,7 +40,7 @@ export const Logo = styled(SiHdfcbank)`
 `;
 
 export const ArrowRight = styled(GoArrowDownRight)`
-  color: var(--dark-sub);
+  color: var(--dark-main);
   width: 2.4rem;
   height: 2.4rem;
 `;
@@ -45,7 +60,7 @@ export const LinkItem = styled.li`
     transition: 100ms ease-in-out; // 100ms == 0.1s
 
     &:hover {
-      border-bottom: 0.4rem solid var(--white-main);
+      border-bottom: 0.4rem solid var(--primary-color);
     }
   }
 `;
@@ -55,16 +70,16 @@ export const HeaderButton = styled.a`
   display: flex;
   align-items: center;
 
-  color: var(--dark-sub);
+  color: var(--dark-main);
   cursor: pointer;
   font-weight: 600;
   font-size: 1.6rem;
-  border-radius: 0rem;
-  padding: 0.8rem 2.4rem;
+  border-radius: 0.4rem;
+  padding: 1.2rem 4rem;
   transition: 400ms ease-in-out;
-  background-color: var(--white-main);
+  background-color: var(--primary-color);
 
   &:hover {
-    padding: 0.8rem 4.8rem;
+    padding: 1.2rem 5.6rem;
   }
 `;

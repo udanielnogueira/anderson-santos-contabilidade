@@ -54,8 +54,8 @@ export const Testimonials = () => {
     <StyledTestimonials id="testimonials">
       <TestimonialsContainer>
         <div data-aos="fade-up">
-          <Heading>O que estão falando sobre o nosso serviço</Heading>
-          <Subheading>Sua melhor escolha contábil é aqui</Subheading>
+          <Heading>O que estão falando sobre a gente</Heading>
+          <Subheading>Depoimentos do escritório</Subheading>
         </div>
         <TestimonialsCards data-aos="fade-up" data-aos-delay="500">
           <TestimonialCard>

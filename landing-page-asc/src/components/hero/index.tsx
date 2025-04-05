@@ -12,8 +12,10 @@ import {
   StyledHero,
   Subheadline,
   ArrowRight,
+  ServicesContainerIcon,
 } from "./style";
 import { useEffect } from "react";
+import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 
 export const Hero = () => {
   useEffect(() => {
@@ -25,10 +27,10 @@ export const Hero = () => {
 
   return (
     <>
-      <StyledHero>
-        <HeroContainer data-aos="fade-up">
+      <StyledHero data-aos="fade-up">
+        <HeroContainer>
           <Headline>
-            Contabilidade transparente e responsável que fortalece a sua missão
+            Contabilidade transparente e responsável que fortalece sua missão
           </Headline>
           <Subheadline>
             Cuidamos de toda a burocracia no nosso escritório, com soluções
@@ -44,6 +46,12 @@ export const Hero = () => {
               Fale conosco
             </HeroButtonBordered>
           </HeroButtonsContainer>
+          <ServicesContainerIcon
+            href="#services"
+            aria-label="Conheça os nossos serviços"
+          >
+            <MdKeyboardDoubleArrowDown />
+          </ServicesContainerIcon>
         </HeroContainer>
       </StyledHero>
     </>

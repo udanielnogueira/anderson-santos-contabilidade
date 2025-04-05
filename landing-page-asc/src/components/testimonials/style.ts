@@ -7,7 +7,7 @@ export const TestimonialsContainer = styled.div`
   margin: 0 auto;
   max-width: 128rem;
 
-  height: 80rem;
+  height: 100vh;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -30,7 +30,7 @@ export const Subheading = styled.p`
   font-weight: 300;
   font-size: 2rem;
   text-align: center;
-  margin-bottom: 9.6rem;
+  margin-bottom: 12rem;
 `;
 
 export const TestimonialsCards = styled.div`
@@ -56,7 +56,7 @@ export const FiveStarsContainer = styled.div`
 export const Star = styled(HiMiniStar)`
   width: 2rem;
   height: 2rem;
-  color: var(--white-main);
+  color: var(--primary-color);
 `;
 
 export const TestimonialText = styled.p`
@@ -82,7 +82,7 @@ export const TestimonialAvatar = styled.div`
     padding: 0.2rem;
     margin-bottom: 1.2rem;
     border-radius: 4rem;
-    border: 0.24rem solid var(--white-main);
+    border: 0.24rem solid var(--primary-color);
   }
 `;
 

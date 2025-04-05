@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const StyledClients = styled.section`
   background-color: white;
+  /* border: 1px solid red; */
 `;
 
 export const ClientsContainer = styled.div`
@@ -13,12 +14,12 @@ export const ClientsContainer = styled.div`
   flex-direction: column;
   justify-content: center;
 
-  height: 80rem;
+  height: 100vh;
 
   svg {
     width: 5rem;
     height: 5rem;
-    color: var(--dark-sub);
+    color: var(--blue);
     animation: move 1600ms ease-in-out infinite;
 
     @keyframes move {
@@ -35,19 +36,28 @@ export const ClientsContainer = styled.div`
 `;
 
 export const Heading = styled.h2`
-  color: var(--dark-main);
+  color: var(--blue);
   text-align: center;
   font-weight: 600;
-  max-width: 60rem;
-  font-size: 4rem;
-  margin-bottom: 12rem;
-  line-height: 5.6rem;
+  max-width: 64rem;
+  font-size: 5.6rem;
+  margin-bottom: 2.4rem;
+  line-height: 6.4rem;
+`;
+
+export const Subheading = styled.p`
+  color: var(--dark-sub);
+  max-width: 72rem;
+  font-weight: 400;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 8rem;
 `;
 
 export const LogosWrapper = styled.div`
   cursor: pointer;
   max-width: 96rem;
-  margin-bottom: 6.4rem;
+  margin-bottom: 12rem;
 `;
 
 export const LogoElement = styled.article`
