@@ -3,6 +3,12 @@ import styled from "styled-components";
 export const StyledClients = styled.section`
   background-color: white;
   /* border: 1px solid red; */
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: var(--blue);
+    --swiper-navigation-size: 3.2rem;
+  }
 `;
 
 export const ClientsContainer = styled.div`
@@ -33,6 +39,8 @@ export const ClientsContainer = styled.div`
       }
     }
   }
+
+  /* border: 1px solid blue; */
 `;
 
 export const Heading = styled.h2`
@@ -57,7 +65,11 @@ export const Subheading = styled.p`
 export const LogosWrapper = styled.div`
   cursor: pointer;
   max-width: 96rem;
-  margin-bottom: 12rem;
+  /* margin-bottom: 12rem; */
+
+  .swiper-pagination-bullet-active {
+    background-color: var(--blue);
+  }
 `;
 
 export const LogoElement = styled.article`
@@ -66,6 +78,8 @@ export const LogoElement = styled.article`
   text-align: center;
   align-items: center;
   flex-direction: column;
+
+  /* margin-bottom: 8rem; */
 `;
 
 export const ClientLogo = styled.div`
@@ -73,6 +87,8 @@ export const ClientLogo = styled.div`
     width: 12rem;
     height: 12rem;
     border-radius: 8rem;
+    /* padding: 0.4rem;
+    border: 0.2rem solid var(--blue); */
   }
 `;
 

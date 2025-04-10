@@ -37,14 +37,13 @@ export const TextImageWrapper = styled.div`
   display: flex;
 
   img {
-    height: 50rem;
+    height: 48rem;
     width: auto;
     border-radius: 0.8rem;
   }
 `;
 
 export const AboutText = styled.p`
-  /* width: 80rem; */
   font-size: 2.4rem;
   font-weight: 400;
   color: var(--dark-main);

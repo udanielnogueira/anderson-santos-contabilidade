@@ -8,7 +8,7 @@ export const ContactContainer = styled.div`
   margin: 0 auto;
   max-width: 128rem;
 
-  height: 100vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   flex-direction: column;

@@ -3,9 +3,12 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Controller, Navigation } from "swiper/modules";
+import { Controller, Navigation, Pagination, Scrollbar } from "swiper/modules";
 
 import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 
 import Image from "next/image";
 import igrejaLivres from "./assets/igreja-livres-oficial.webp";
@@ -14,6 +17,9 @@ import igrejaPresbiterianaPiedade from "./assets/igreja-presbiteriana-piedade.we
 import igrejaPresbiterianaMadureira from "./assets/igreja-presbiteriana-madureira.webp";
 import institutoEduAraujoDutra from "./assets/instituto-edu-araujo-dutra.webp";
 import institutoSara from "./assets/instituto-sara.webp";
+import presbiterioDeGuanabara from "./assets/presbiterio-de-guanabara.webp";
+import ipPromocaoDaCidadania from "./assets/ip-promocao-da-cidadania.webp";
+import ministerioMonteHermon from "./assets/ministerio-monte-hermom.webp";
 
 import {
   StyledClients,
@@ -25,7 +31,6 @@ import {
   LogoElement,
   Subheading,
 } from "./style";
-import { PiHandSwipeRight } from "react-icons/pi";
 import { useEffect } from "react";
 
 export const Clients: React.FC = () => {
@@ -56,6 +61,21 @@ export const Clients: React.FC = () => {
       alt: "Logo do Instituto Edu Araújo Dutra",
       name: "Instituto Edu Araújo Dutra",
     },
+    {
+      logo: ipPromocaoDaCidadania,
+      alt: "Logo do Instituto Presbiteriano De Promoção da Cidadania",
+      name: "Instituto Presbiteriano de Promoção da Cidadania",
+    },
+    {
+      logo: presbiterioDeGuanabara,
+      alt: "Logo do Presbitério de Guanabara",
+      name: "Presbitério de Guanabara",
+    },
+    {
+      logo: ministerioMonteHermon,
+      alt: "Logo do Ministério Monte Hermon",
+      name: "Ministério Monte Hermon",
+    },
   ];
 
   useEffect(() => {
@@ -74,11 +94,12 @@ export const Clients: React.FC = () => {
         </div>
         <LogosWrapper data-aos="fade-up" data-aos-delay="500">
           <Swiper
+            modules={[Controller, Pagination, Navigation, Scrollbar]}
             spaceBetween={0}
             slidesPerView={3}
-            modules={[Controller, Navigation]}
-            pagination={{ clickable: true }}
             navigation
+            // pagination={{ clickable: true }}
+            // scrollbar={{ draggable: true }}
           >
             {clients.map((client, index) => (
               <SwiperSlide>
@@ -92,9 +113,9 @@ export const Clients: React.FC = () => {
             ))}
           </Swiper>
         </LogosWrapper>
-        <div data-aos="fade-up" data-aos-delay="500">
+        {/* <div data-aos="fade-up" data-aos-delay="500">
           <PiHandSwipeRight />
-        </div>
+        </div> */}
       </ClientsContainer>
     </StyledClients>
   );

@@ -1,7 +1,15 @@
 import { HiMiniStar } from "react-icons/hi2";
 import styled from "styled-components";
 
-export const StyledTestimonials = styled.section``;
+export const StyledTestimonials = styled.section`
+  /* border: 1px solid red; */
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: var(--primary-color);
+    --swiper-navigation-size: 3.2rem;
+  }
+`;
 
 export const TestimonialsContainer = styled.div`
   margin: 0 auto;
@@ -12,6 +20,8 @@ export const TestimonialsContainer = styled.div`
   align-items: center;
   flex-direction: column;
   justify-content: center;
+
+  /* border: 1px solid blue; */
 `;
 
 export const Heading = styled.h2`
@@ -35,9 +45,13 @@ export const Subheading = styled.p`
 
 export const TestimonialsCards = styled.div`
   width: 100%;
-  display: grid;
-  grid-row-gap: 9.6rem;
-  grid-template-columns: 1fr 1fr;
+
+  /* column-gap: 16rem; */
+  /* row-gap: 8rem; */
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 `;
 
 export const TestimonialCard = styled.article`
