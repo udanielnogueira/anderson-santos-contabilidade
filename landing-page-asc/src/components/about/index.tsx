@@ -36,7 +36,7 @@ export const About = () => {
             contabilidade feita de forma irregular ou análoga às organizações de
             outros setores, é difícil encontrar serviços especializados que
             atendam demandas e exigências de organizações em fins lucrativos.*/}
-            Sou o Anderson, contador desde 2018. Graduado pela Unicarioca e
+            {/* Sou o Anderson, contador desde 2018. Graduado pela Unicarioca e
             pós-graduado em Gestão Contábil e Tributária no Terceiro Setor pela
             PUC Minas. Atuo no Terceiro Setor desde 2019, também integro
             comissões que desenvolvem o 3° Setor no Conselho Regional de
@@ -44,7 +44,16 @@ export const About = () => {
             exclusivamente organizações sem fins lucrativos. E hoje, toda nossa
             carteira de clientes é formada por igrejas, institutos e
             associações. Seguimos comprometidos em oferecer um serviço de alta
-            qualidade e personalizado para esse Setor.
+            qualidade e personalizado para esse Setor. */}
+            Muitas organizações do Terceiro Setor têm sua contabilidade feita de
+            forma irregular ou análoga às organizações de outros setores, o que
+            pode causar vários prejuízos pela falta do tratamento adequado.
+            Diante da escassez de um serviço especializado para cuidar desse
+            nicho, nasce nosso escritório, com a missão de ajudar essas
+            organizações! Sou contador desde 2018, graduado pela Unicarioca. No
+            Terceiro Setor, atuo desde 2019 e atualmente sou pós-graduado em
+            Gestão Contábil e Tributária no Terceiro Setor pela PUC Minas, e
+            integro comissões da área no Conselho Regional de Contabilidade RJ.
           </AboutText>
         </TextImageWrapper>
       </AboutContainer>
