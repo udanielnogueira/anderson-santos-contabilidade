@@ -8,11 +8,13 @@ export const ServicesContainer = styled.div`
   margin: 0 auto;
   max-width: 128rem;
 
-  height: 100vh;
+  height: 108vh;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+
+  /* border: 1px solid blue; */
 `;
 
 export const Heading = styled.h2`
@@ -39,20 +41,21 @@ export const ServicesCards = styled.div`
   display: grid;
   grid-row-gap: 3.2rem;
   grid-column-gap: 3.2rem;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 `;
 
 export const ServiceCard = styled.article`
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   justify-content: center;
   /* background-color: #fdfdfd; */
 
-  padding: 4.8rem 0;
+  padding: 5.6rem 0;
+  padding-left: 4rem;
   border-radius: 1rem;
   transition: 400ms ease-in-out;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 3.2px rgba(0, 0, 0, 0.1);
 
   &:hover {
     transform: translateY(-0.8rem);
@@ -67,7 +70,7 @@ export const CardImage = styled.div`
     height: 6.4rem;
     color: var(--blue);
     padding: 1.6rem;
-    border-radius: 4rem;
+    border-radius: 0.4rem;
     background-color: var(--primary-color);
     text-align: center;
   }
@@ -82,8 +85,8 @@ export const CardTitle = styled.h3`
 
 export const CardText = styled.p`
   color: var(--dark-sub);
-  text-align: center;
+  text-align: justify;
   font-weight: 400;
   font-size: 1.8rem;
-  max-width: 34rem;
+  max-width: 52rem;
 `;

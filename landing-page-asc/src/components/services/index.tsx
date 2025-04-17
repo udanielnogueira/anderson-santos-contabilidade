@@ -47,8 +47,9 @@ export const Services = () => {
             </CardImage>
             <CardTitle>Contabilidade Geral</CardTitle>
             <CardText>
-              Uma escrituração contábil completa, com elaboração de balanços e
-              relatórios.
+              Mantenha sua organização em dia. Realizamos uma escrituração
+              contábil completa, elaboramos balanços e relatórios gerenciais
+              essenciais para a tomada de decisões e conformidade legal.
             </CardText>
           </ServiceCard>
 
@@ -58,8 +59,9 @@ export const Services = () => {
             </CardImage>
             <CardTitle>Fiscal e Tributário</CardTitle>
             <CardText>
-              Apuração de impostos, planejamento tributário e obrigações
-              acessórias.
+              Otimize sua carga tributária e evite possíveis multas. Cuidamos da
+              apuração de impostos, planejamento tributário estratégico e
+              entrega de todas as declarações e obrigações acessórias.
             </CardText>
           </ServiceCard>
 
@@ -67,10 +69,11 @@ export const Services = () => {
             <CardImage>
               <MdPersonOutline />
             </CardImage>
-            <CardTitle>Setor Pessoal e Trabalhista</CardTitle>
+            <CardTitle>Departamento Pessoal e Trabalhista</CardTitle>
             <CardText>
-              Folha de pagamento, encargos sociais e as demais normas
-              trabalhistas.
+              Gestão de Pessoal sem Complicações. Processamento de folha de
+              pagamento, com cálculos de encargos sociais e garantia de
+              conformidade com a Legislação trabalhista.
             </CardText>
           </ServiceCard>
 
@@ -80,29 +83,9 @@ export const Services = () => {
             </CardImage>
             <CardTitle>Consultoria e Acessoria</CardTitle>
             <CardText>
-              Acessoria contábil e fiscal completa, esteja atualizado com a
-              legislação.
-            </CardText>
-          </ServiceCard>
-
-          <ServiceCard>
-            <CardImage>
-              <MdWorkspacesOutline />
-            </CardImage>
-            <CardTitle>Serviços Avulsos</CardTitle>
-            <CardText>
-              Abertura e baixa de organizações, elaboração de atas e estatutos.
-            </CardText>
-          </ServiceCard>
-
-          <ServiceCard>
-            <CardImage>
-              <PiSuitcaseSimpleBold />
-            </CardImage>
-            <CardTitle>Mais serviços</CardTitle>
-            <CardText>
-              Entrega de declaração de IR, cadastro em certificações e outros
-              encargos.
+              Consultoria contábil e finaceira. Com um suporte personalizado
+              para otimizar sua gestão, reduzir custos e garantir que a sua
+              organização esteja atualizada e segura perante a legislação.
             </CardText>
           </ServiceCard>
         </ServicesCards>

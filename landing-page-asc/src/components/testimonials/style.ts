@@ -52,6 +52,7 @@ export const TestimonialsCards = styled.div`
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
+  cursor: pointer;
 `;
 
 export const TestimonialCard = styled.article`

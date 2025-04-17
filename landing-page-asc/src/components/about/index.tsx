@@ -50,10 +50,11 @@ export const About = () => {
             pode causar vários prejuízos pela falta do tratamento adequado.
             Diante da escassez de um serviço especializado para cuidar desse
             nicho, nasce nosso escritório, com a missão de ajudar essas
-            organizações! Sou contador desde 2018, graduado pela Unicarioca. No
+            organizações. Sou contador desde 2018, graduado pela Unicarioca. No
             Terceiro Setor, atuo desde 2019 e atualmente sou pós-graduado em
-            Gestão Contábil e Tributária no Terceiro Setor pela PUC Minas, e
-            integro comissões da área no Conselho Regional de Contabilidade RJ.
+            Gestão Contábil e Tributária no Terceiro Setor pela PUC Minas. E por
+            fim, também integro comissões da área no Conselho Regional de
+            Contabilidade RJ.
           </AboutText>
         </TextImageWrapper>
       </AboutContainer>
