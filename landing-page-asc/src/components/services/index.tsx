@@ -48,7 +48,7 @@ export const Services = () => {
             <CardTitle>Contabilidade Geral</CardTitle>
             <CardText>
               Mantenha sua organização em dia. Realizamos uma escrituração
-              contábil completa, elaboramos balanços e relatórios gerenciais
+              contábil completa, elaborando os balanços e relatórios gerenciais
               essenciais para a tomada de decisões e conformidade legal.
             </CardText>
           </ServiceCard>
@@ -60,7 +60,7 @@ export const Services = () => {
             <CardTitle>Fiscal e Tributário</CardTitle>
             <CardText>
               Otimize sua carga tributária e evite possíveis multas. Cuidamos da
-              apuração de impostos, planejamento tributário estratégico e
+              apuração de impostos, do planejamento tributário estratégico e da
               entrega de todas as declarações e obrigações acessórias.
             </CardText>
           </ServiceCard>
@@ -71,8 +71,8 @@ export const Services = () => {
             </CardImage>
             <CardTitle>Departamento Pessoal e Trabalhista</CardTitle>
             <CardText>
-              Gestão de Pessoal sem Complicações. Processamento de folha de
-              pagamento, com cálculos de encargos sociais e garantia de
+              Gestão de Pessoal sem complicações. Processamento da folha de
+              pagamento, com todos os cálculos de encargos sociais e garantia de
               conformidade com a Legislação trabalhista.
             </CardText>
           </ServiceCard>
@@ -84,7 +84,7 @@ export const Services = () => {
             <CardTitle>Consultoria e Acessoria</CardTitle>
             <CardText>
               Consultoria contábil e finaceira. Com um suporte personalizado
-              para otimizar sua gestão, reduzir custos e garantir que a sua
+              para otimizar toda sua gestão, reduzir custos e garantir que a sua
               organização esteja atualizada e segura perante a legislação.
             </CardText>
           </ServiceCard>
