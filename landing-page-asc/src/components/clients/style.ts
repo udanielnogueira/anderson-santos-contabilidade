@@ -20,6 +20,8 @@ export const ClientsContainer = styled.div`
   flex-direction: column;
   justify-content: center;
 
+  /* padding-top: 16rem; */
+
   height: 100vh;
 
   svg {

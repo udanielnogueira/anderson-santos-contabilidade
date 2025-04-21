@@ -20,7 +20,12 @@ import { MdOutlineChurch, MdPersonOutline } from "react-icons/md";
 import { LuGlasses, LuMonitorCheck } from "react-icons/lu";
 import { useEffect } from "react";
 import { PiNewspaperClipping } from "react-icons/pi";
-import { RiNewspaperLine, RiScissorsFill } from "react-icons/ri";
+import {
+  RiFilePaperLine,
+  RiNewspaperLine,
+  RiScissorsFill,
+} from "react-icons/ri";
+import { BsStars } from "react-icons/bs";
 
 export const Specials = () => {
   useEffect(() => {
@@ -34,6 +39,7 @@ export const Specials = () => {
     <StyledSpecials id="specials">
       <SpecialsContainer>
         <div data-aos="fade-up" className="headingSubheadingContainer">
+          <BsStars className="stars" />
           <Heading>Nossa Especialidade: Terceiro Setor</Heading>
           <Subheading>
             Com as nossas soluções, você entrega a burocracia para quem entende
@@ -53,21 +59,22 @@ export const Specials = () => {
               Oferecemos uma gestão contábil completa para o Terceiro Setor,
               seguindo normas como a ITG 2002 e também MROSC. Elaboramos
               demonstrações, relatórios e prestações de contas. Assegurando
-              transparência e conformidade.
+              transparência e conformidade legal.
             </CardText>
           </SpecialsCard>
 
           <SpecialsCard className="marginTop">
             <div className="imageTitleContainer">
               <CardImage>
-                <RiNewspaperLine />
+                <RiFilePaperLine />
               </CardImage>
               <CardTitle>Certificados e Isenções</CardTitle>
             </div>
             <CardText>
-              Fazemos o processo de obtenção de certificados como CEBAS, OSCIP e
-              outros. Também damos entrada em pedidos de isenções e imunidades
-              como as isenções de IPTU, de ICMS e da taxa de Bombeiros.
+              Fazemos todo o processo de obtenção de certificados importantes
+              como o CEBAS, OSCIP e outros. Nós também damos entrada em pedidos
+              de isenções e imunidades tributárias, como as isenções de IPTU, de
+              ICMS e da taxa de Bombeiros.
             </CardText>
           </SpecialsCard>
 

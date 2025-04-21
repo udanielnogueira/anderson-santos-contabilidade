@@ -89,8 +89,8 @@ export const Clients: React.FC = () => {
     <StyledClients id="clients">
       <ClientsContainer>
         <div data-aos="fade-up">
-          <Heading>Várias organizações sendo atendidas</Heading>
-          <Subheading>Conheça alguns clientes</Subheading>
+          <Heading>Com várias organizações já sendo atendidas</Heading>
+          <Subheading>Conheça alguns dos clientes 100% satisfeitos</Subheading>
         </div>
         <LogosWrapper data-aos="fade-up" data-aos-delay="500">
           <Swiper

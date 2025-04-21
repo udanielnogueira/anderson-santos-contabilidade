@@ -8,11 +8,14 @@ export const SpecialsContainer = styled.div`
   margin: 0 auto;
   max-width: 128rem;
 
-  height: 108vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+
+  /* margin-top: 14rem;
+  padding-top: 2rem; */
 
   /* border: 1px solid blue; */
 
@@ -21,6 +24,13 @@ export const SpecialsContainer = styled.div`
     display: flex;
     align-items: center;
     flex-direction: column;
+  }
+
+  .stars {
+    height: 6.4rem;
+    width: 6.4rem;
+    color: var(--blue);
+    margin-bottom: 2.4rem;
   }
 `;
 
@@ -36,23 +46,22 @@ export const Heading = styled.h2`
 
 export const Subheading = styled.p`
   color: var(--dark-sub);
-  max-width: 56rem;
+  max-width: 80rem;
   font-weight: 400;
   font-size: 2rem;
   text-align: center;
-  margin-bottom: 8rem;
+  margin-bottom: 4.8rem;
 `;
 
 export const SpecialsCards = styled.div`
   /* gap: 9.6rem; */
   width: 100%;
   display: grid;
-  grid-row-gap: 3.2rem;
-  grid-column-gap: 3.2rem;
+  gap: 3.2rem;
   grid-template-columns: 1fr 1fr;
 
   .imageTitleContainer {
-    gap: 2rem;
+    gap: 1.6rem;
     display: flex;
     align-items: center;
   }

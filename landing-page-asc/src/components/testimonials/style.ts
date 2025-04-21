@@ -20,6 +20,9 @@ export const TestimonialsContainer = styled.div`
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  /* 
+  margin-top: 4rem;
+  padding-top: 12rem; */
 
   /* border: 1px solid blue; */
 `;
@@ -28,7 +31,7 @@ export const Heading = styled.h2`
   color: var(--white-main);
   text-align: center;
   font-weight: 600;
-  max-width: 64rem;
+  max-width: 72rem;
   font-size: 5.6rem;
   margin-bottom: 2.4rem;
   line-height: 6.4rem;

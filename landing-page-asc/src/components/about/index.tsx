@@ -26,8 +26,10 @@ export const About = () => {
     <StyledAbout id="about">
       <AboutContainer>
         <div data-aos="fade-up">
-          <Heading>Conheça um pouco da nossa história</Heading>
-          <Subheading>atuando na contabilidade</Subheading>
+          <Heading>Conheça um pouco mais da nossa respeitada história</Heading>
+          <Subheading>
+            +7 anos atuando na contabilidade de maneira exemplar
+          </Subheading>
         </div>
         <TextImageWrapper data-aos="fade-up" data-aos-delay="500">
           <Image src={professionalPicture} alt={"Foto profissional"} />

@@ -37,8 +37,12 @@ export const Services = () => {
     <StyledServices id="services">
       <ServicesContainer>
         <div data-aos="fade-up">
-          <Heading>Confira os serviços disponíveis</Heading>
-          <Subheading>para sua gestão!</Subheading>
+          <Heading>
+            Confira os serviços disponíveis aqui no nosso escritório
+          </Heading>
+          <Subheading>
+            Uma gestão eficiente e contabilidade responsável
+          </Subheading>
         </div>
         <ServicesCards data-aos="fade-up" data-aos-delay="550">
           <ServiceCard>

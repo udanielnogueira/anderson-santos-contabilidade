@@ -63,10 +63,12 @@ export const Testimonials = () => {
     <StyledTestimonials id="testimonials">
       <TestimonialsContainer>
         <div data-aos="fade-up">
-          <Heading>O que estão falando sobre a gente</Heading>
-          <Subheading>Depoimentos do escritório</Subheading>
+          <Heading>E veja o que estão falando sobre o nosso trabalho</Heading>
+          <Subheading>
+            Alguns dos grandes depoimentos do nosso escritório
+          </Subheading>
         </div>
-        <TestimonialsCards data-aos="fade-up" data-aos-delay="500">
+        <TestimonialsCards data-aos="fade-up" data-aos-delay="250">
           <Swiper
             modules={[Controller, Pagination, Navigation, Scrollbar]}
             spaceBetween={0}

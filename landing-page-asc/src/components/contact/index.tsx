@@ -21,12 +21,12 @@ export const Contact = () => {
     <StyledContact id="contact">
       <ContactContainer data-aos="fade-up" data-aos-delay="500">
         <ContactTitle>
-          <ContactTitleText>Fale conosco</ContactTitleText>
+          <ContactTitleText>Fale conosco por aqui</ContactTitleText>
           <ContactIcon href="#contact" aria-label="Nossos contatos">
             <PiArrowElbowRightDownLight />
           </ContactIcon>
         </ContactTitle>
-        <Subheading>Nossos canais de comunicação</Subheading>
+        <Subheading>Sinta-se à vontade para mandar uma mensagem</Subheading>
         <ContactElementsWrapper>
           <ContactElement
             href="mailto:andersonsscontabil@gmail.com"

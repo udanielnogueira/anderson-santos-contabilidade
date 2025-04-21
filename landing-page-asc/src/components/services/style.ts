@@ -8,11 +8,14 @@ export const ServicesContainer = styled.div`
   margin: 0 auto;
   max-width: 128rem;
 
-  height: 108vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+
+  /* margin-top: 10rem;
+  padding-top: 6rem; */
 
   /* border: 1px solid blue; */
 `;
@@ -21,7 +24,7 @@ export const Heading = styled.h2`
   color: var(--blue);
   text-align: center;
   font-weight: 600;
-  max-width: 64rem;
+  max-width: 80rem;
   font-size: 5.6rem;
   margin-bottom: 2.4rem;
   line-height: 6.4rem;
@@ -33,7 +36,7 @@ export const Subheading = styled.p`
   font-weight: 400;
   font-size: 2rem;
   text-align: center;
-  margin-bottom: 8rem;
+  margin-bottom: 4.8rem;
 `;
 
 export const ServicesCards = styled.div`

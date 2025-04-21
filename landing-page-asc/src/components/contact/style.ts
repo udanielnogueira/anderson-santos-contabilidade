@@ -35,7 +35,7 @@ export const Subheading = styled.p`
   font-weight: 300;
   font-size: 2rem;
   text-align: center;
-  margin-bottom: 12rem;
+  margin-bottom: 8rem;
 `;
 
 export const ContactIcon = styled.a`
