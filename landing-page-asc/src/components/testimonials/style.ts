@@ -1,61 +1,85 @@
-import { HiMiniStar } from "react-icons/hi2";
 import styled from "styled-components";
+import { HiMiniStar } from "react-icons/hi2";
 
 export const StyledTestimonials = styled.section`
-  /* border: 1px solid red; */
-
   .swiper-button-next,
   .swiper-button-prev {
     color: var(--primary-color);
     --swiper-navigation-size: 3.2rem;
   }
+
+  @media screen and (max-width: 1080px) {
+    .swiper-button-next,
+    .swiper-button-prev {
+      color: transparent;
+    }
+  }
 `;
 
 export const TestimonialsContainer = styled.div`
+  height: 100vh;
   margin: 0 auto;
   max-width: 128rem;
 
-  height: 100vh;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  /* 
-  margin-top: 4rem;
-  padding-top: 12rem; */
 
-  /* border: 1px solid blue; */
+  @media only screen and (max-width: 1080px) {
+    height: auto;
+    max-width: 36rem;
+  }
 `;
 
 export const Heading = styled.h2`
-  color: var(--white-main);
-  text-align: center;
-  font-weight: 600;
   max-width: 72rem;
-  font-size: 5.6rem;
   margin-bottom: 2.4rem;
+
+  font-weight: 600;
+  font-size: 5.6rem;
+  text-align: center;
   line-height: 6.4rem;
+  color: var(--white-main);
+
+  @media only screen and (max-width: 1320px) {
+    max-width: 35rem;
+
+    font-size: 4rem;
+    line-height: 4.3rem;
+  }
 `;
 
 export const Subheading = styled.p`
-  color: var(--white-sub);
   max-width: 72rem;
-  font-weight: 300;
-  font-size: 2rem;
-  text-align: center;
   margin-bottom: 12rem;
+
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: center;
+  color: var(--white-sub);
+
+  @media only screen and (max-width: 1320px) {
+    margin: 0 auto;
+    max-width: 30rem;
+    margin-bottom: 4rem;
+
+    line-height: 2.4rem;
+  }
 `;
 
 export const TestimonialsCards = styled.div`
-  width: 100%;
+  width: 50%;
 
-  /* column-gap: 16rem; */
-  /* row-gap: 8rem; */
   display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: center;
   cursor: pointer;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  @media screen and (max-width: 1080px) {
+    width: 90%;
+  }
 `;
 
 export const TestimonialCard = styled.article`
@@ -66,24 +90,31 @@ export const TestimonialCard = styled.article`
 `;
 
 export const FiveStarsContainer = styled.div`
+  margin-bottom: 1.2rem;
+
   gap: 0.8rem;
   display: flex;
-  margin-bottom: 1.2rem;
 `;
 
 export const Star = styled(HiMiniStar)`
   width: 2rem;
   height: 2rem;
+
   color: var(--primary-color);
 `;
 
 export const TestimonialText = styled.p`
-  color: var(--white-main);
-  max-width: 50rem;
-  font-weight: 300;
-  font-size: 2rem;
-  text-align: center;
+  max-width: 52rem;
   margin-bottom: 1.2rem;
+
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: center;
+  color: var(--white-main);
+
+  @media only screen and (max-width: 1080px) {
+    font-size: 1.6rem;
+  }
 `;
 
 export const PersonContainer = styled.div`
@@ -97,16 +128,21 @@ export const TestimonialAvatar = styled.div`
   img {
     width: 5.6rem;
     height: 5.6rem;
-    padding: 0.2rem;
     margin-bottom: 1.2rem;
+
+    padding: 0.2rem;
     border-radius: 4rem;
     border: 0.24rem solid var(--primary-color);
   }
 `;
 
 export const TestimonialName = styled.p`
-  color: var(--white-sub);
   font-weight: 300;
   font-size: 1.6rem;
   text-align: center;
+  color: var(--white-sub);
+
+  @media screen and (max-width: 1080px) {
+    max-width: 22rem;
+  }
 `;

@@ -65,6 +65,7 @@ export const ServicesCards = styled.div`
   justify-content: center;
 
   @media only screen and (max-width: 1080px) {
+    gap: 2.4rem;
   }
 `;
 

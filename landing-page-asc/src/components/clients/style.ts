@@ -98,8 +98,6 @@ export const LogosWrapper = styled.div`
   }
 
   @media only screen and (max-width: 1080px) {
-    height: 38rem;
-
     .swiper {
       max-width: 36rem;
     }

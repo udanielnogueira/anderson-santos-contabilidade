@@ -84,6 +84,7 @@ export const SpecialsCards = styled.div`
   }
 
   @media only screen and (max-width: 1080px) {
+    gap: 2.4rem;
     max-width: 36rem;
   }
 `;

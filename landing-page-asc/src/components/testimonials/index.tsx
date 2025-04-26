@@ -1,33 +1,31 @@
 "use client";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Controller, Navigation, Pagination, Scrollbar } from "swiper/modules";
 
 import Image from "next/image";
 import joaoBatista from "./assets/joao-batista.webp";
 import roberioLima from "./assets/roberio-lima.webp";
 import fabioQuintanilha from "./assets/fabio-quintanilha.webp";
 
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Controller, Navigation, Pagination, Scrollbar } from "swiper/modules";
-
 import "swiper/css";
+import "swiper/css/scrollbar";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import "swiper/css/scrollbar";
 
 import {
-  FiveStarsContainer,
-  Heading,
-  PersonContainer,
   Star,
-  StyledTestimonials,
+  Heading,
   Subheading,
-  TestimonialAvatar,
   TestimonialCard,
-  TestimonialName,
-  TestimonialsCards,
-  TestimonialsContainer,
   TestimonialText,
+  TestimonialName,
+  TestimonialAvatar,
+  TestimonialsCards,
+  StyledTestimonials,
+  FiveStarsContainer,
+  TestimonialsContainer,
 } from "./style";
 import { useEffect } from "react";
 
@@ -70,34 +68,13 @@ export const Testimonials = () => {
         </div>
         <TestimonialsCards data-aos="fade-up" data-aos-delay="250">
           <Swiper
-            modules={[Controller, Pagination, Navigation, Scrollbar]}
-            spaceBetween={0}
-            slidesPerView={2}
             navigation
+            spaceBetween={0}
+            slidesPerView={1}
+            modules={[Controller, Pagination, Navigation, Scrollbar]}
             // pagination={{ clickable: true }}
             // scrollbar={{ draggable: true }}
           >
-            <SwiperSlide>
-              <TestimonialCard>
-                <TestimonialAvatar>
-                  <Image
-                    src={joaoBatista}
-                    alt={"Foto de perfil do Reverendo João Batista"}
-                  ></Image>
-                </TestimonialAvatar>
-                <FiveStars />
-                <TestimonialText>
-                  O escritório exerce seus serviços primando por pontualidade,
-                  atendimento personalizado na emissão dos relatórios e
-                  constante busca de melhoria, além de um preço bem competitivo
-                  no mercado.
-                </TestimonialText>
-                <TestimonialName>
-                  Rev. João Batista da Igreja Presbiteriana de Madureira
-                </TestimonialName>
-              </TestimonialCard>
-            </SwiperSlide>
-
             <SwiperSlide>
               <TestimonialCard>
                 <TestimonialAvatar>
@@ -109,9 +86,9 @@ export const Testimonials = () => {
                 <FiveStars />
                 <TestimonialText>
                   Eficiência, profissionalismo e transparência são as marcas do
-                  atendimento do escritório ao Instituto Sara desde o início de
-                  nossa parceria. São anos de parceria e o nosso único registro
-                  é gratidão!
+                  atendimento do escritório ao Instituto Sara desde o início
+                  dessa nossa parceria. São anos de parceria e o nosso único
+                  registro é gratidão!
                 </TestimonialText>
                 <TestimonialName>
                   Rev. Fábio Quintanilha do Instituto Sara
@@ -136,6 +113,27 @@ export const Testimonials = () => {
                 </TestimonialText>
                 <TestimonialName>
                   Rev. Robério Lima da Igreja Presbiteriana de Piedade
+                </TestimonialName>
+              </TestimonialCard>
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <TestimonialCard>
+                <TestimonialAvatar>
+                  <Image
+                    src={joaoBatista}
+                    alt={"Foto de perfil do Reverendo João Batista"}
+                  ></Image>
+                </TestimonialAvatar>
+                <FiveStars />
+                <TestimonialText>
+                  O escritório exerce seus serviços primando por pontualidade,
+                  atendimento personalizado na emissão dos relatórios e
+                  constante busca de melhoria, além de um preço bem competitivo
+                  no mercado.
+                </TestimonialText>
+                <TestimonialName>
+                  Rev. João Batista da Igreja Presbiteriana de Madureira
                 </TestimonialName>
               </TestimonialCard>
             </SwiperSlide>
