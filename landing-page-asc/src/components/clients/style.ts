@@ -2,16 +2,24 @@ import styled from "styled-components";
 
 export const StyledClients = styled.section`
   background-color: white;
-  /* border: 1px solid red; */
 
   .swiper-button-next,
   .swiper-button-prev {
     color: var(--blue);
     --swiper-navigation-size: 3.2rem;
   }
+
+  @media only screen and (max-width: 1080px) {
+    .swiper-button-next,
+    .swiper-button-prev {
+      color: transparent;
+      --swiper-navigation-size: 1.6rem;
+    }
+  }
 `;
 
 export const ClientsContainer = styled.div`
+  height: 100vh;
   width: 128rem;
   margin: 0 auto;
 
@@ -20,13 +28,10 @@ export const ClientsContainer = styled.div`
   flex-direction: column;
   justify-content: center;
 
-  /* padding-top: 16rem; */
-
-  height: 100vh;
-
   svg {
     width: 5rem;
     height: 5rem;
+
     color: var(--blue);
     animation: move 1600ms ease-in-out infinite;
 
@@ -42,35 +47,62 @@ export const ClientsContainer = styled.div`
     }
   }
 
-  /* border: 1px solid blue; */
+  @media only screen and (max-width: 1320px) {
+    height: auto;
+    max-width: 36rem;
+  }
 `;
 
 export const Heading = styled.h2`
+  max-width: 64rem;
+  margin-bottom: 2.4rem;
+
+  font-weight: 600;
+  font-size: 5.6rem;
   color: var(--blue);
   text-align: center;
-  font-weight: 600;
-  max-width: 64rem;
-  font-size: 5.6rem;
-  margin-bottom: 2.4rem;
   line-height: 6.4rem;
+
+  @media only screen and (max-width: 1320px) {
+    max-width: 35rem;
+
+    font-size: 4rem;
+    line-height: 4.3rem;
+  }
 `;
 
 export const Subheading = styled.p`
-  color: var(--dark-sub);
   max-width: 72rem;
-  font-weight: 400;
-  font-size: 2rem;
-  text-align: center;
   margin-bottom: 8rem;
+
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  color: var(--dark-sub);
+
+  @media only screen and (max-width: 1320px) {
+    margin: 0 auto;
+    max-width: 24rem;
+    margin-bottom: 4rem;
+
+    line-height: 2.4rem;
+  }
 `;
 
 export const LogosWrapper = styled.div`
   cursor: pointer;
   max-width: 96rem;
-  /* margin-bottom: 12rem; */
 
   .swiper-pagination-bullet-active {
     background-color: var(--blue);
+  }
+
+  @media only screen and (max-width: 1080px) {
+    height: 38rem;
+
+    .swiper {
+      max-width: 36rem;
+    }
   }
 `;
 
@@ -81,7 +113,9 @@ export const LogoElement = styled.article`
   align-items: center;
   flex-direction: column;
 
-  /* margin-bottom: 8rem; */
+  @media only screen and (max-width: 1080px) {
+    gap: 0.4rem;
+  }
 `;
 
 export const ClientLogo = styled.div`
@@ -89,14 +123,24 @@ export const ClientLogo = styled.div`
     width: 12rem;
     height: 12rem;
     border-radius: 8rem;
-    /* padding: 0.4rem;
-    border: 0.2rem solid var(--blue); */
+  }
+
+  @media only screen and (max-width: 1080px) {
+    img {
+      width: 8rem;
+      height: 8rem;
+    }
   }
 `;
 
 export const ClientName = styled.p`
-  color: var(--dark-sub);
   max-width: 14rem;
+
   font-weight: 500;
   font-size: 1.4rem;
+  color: var(--dark-sub);
+
+  @media screen and (max-width: 1080px) {
+    font-size: 1.2rem;
+  }
 `;

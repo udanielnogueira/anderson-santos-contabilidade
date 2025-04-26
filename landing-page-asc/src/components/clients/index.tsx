@@ -1,36 +1,36 @@
 "use client";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Controller, Navigation, Pagination, Scrollbar } from "swiper/modules";
 
 import "swiper/css";
+import "swiper/css/scrollbar";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import "swiper/css/scrollbar";
 
 import Image from "next/image";
+import institutoSara from "./assets/instituto-sara.webp";
 import igrejaLivres from "./assets/igreja-livres-oficial.webp";
-import igrejaPresbiterianaThomazCoelho from "./assets/igreja-presbiteriana-thomaz-coelho.webp";
+import ministerioMonteHermon from "./assets/ministerio-monte-hermom.webp";
+import ipPromocaoDaCidadania from "./assets/ip-promocao-da-cidadania.webp";
+import presbiterioDeGuanabara from "./assets/presbiterio-de-guanabara.webp";
+import institutoEduAraujoDutra from "./assets/instituto-edu-araujo-dutra.webp";
 import igrejaPresbiterianaPiedade from "./assets/igreja-presbiteriana-piedade.webp";
 import igrejaPresbiterianaMadureira from "./assets/igreja-presbiteriana-madureira.webp";
-import institutoEduAraujoDutra from "./assets/instituto-edu-araujo-dutra.webp";
-import institutoSara from "./assets/instituto-sara.webp";
-import presbiterioDeGuanabara from "./assets/presbiterio-de-guanabara.webp";
-import ipPromocaoDaCidadania from "./assets/ip-promocao-da-cidadania.webp";
-import ministerioMonteHermon from "./assets/ministerio-monte-hermom.webp";
+import igrejaPresbiterianaThomazCoelho from "./assets/igreja-presbiteriana-thomaz-coelho.webp";
 
 import {
+  Heading,
+  ClientName,
+  ClientLogo,
+  Subheading,
+  LogoElement,
+  LogosWrapper,
   StyledClients,
   ClientsContainer,
-  ClientLogo,
-  Heading,
-  LogosWrapper,
-  ClientName,
-  LogoElement,
-  Subheading,
 } from "./style";
+
 import { useEffect } from "react";
 
 export const Clients: React.FC = () => {
@@ -95,11 +95,12 @@ export const Clients: React.FC = () => {
         <LogosWrapper data-aos="fade-up" data-aos-delay="500">
           <Swiper
             modules={[Controller, Pagination, Navigation, Scrollbar]}
-            spaceBetween={0}
             slidesPerView={3}
+            spaceBetween={0}
             navigation
             // pagination={{ clickable: true }}
             // scrollbar={{ draggable: true }}
+            className="swiper"
           >
             {clients.map((client, index) => (
               <SwiperSlide>

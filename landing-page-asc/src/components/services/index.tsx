@@ -2,28 +2,23 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import { TbReportMoney } from "react-icons/tb";
 import {
-  CardImage,
+  Heading,
   CardText,
   CardTitle,
-  Heading,
+  CardImage,
+  Subheading,
   ServiceCard,
   ServicesCards,
-  ServicesContainer,
   StyledServices,
-  Subheading,
+  ServicesContainer,
 } from "./style";
-import { FaRegMoneyBillAlt } from "react-icons/fa";
 
-import {
-  MdKeyboardDoubleArrowDown,
-  MdPersonOutline,
-  MdWorkspacesOutline,
-} from "react-icons/md";
-import { LuGlasses } from "react-icons/lu";
-import { PiSuitcaseSimpleBold } from "react-icons/pi";
 import { useEffect } from "react";
+import { LuGlasses } from "react-icons/lu";
+import { TbReportMoney } from "react-icons/tb";
+import { MdPersonOutline } from "react-icons/md";
+import { FaRegMoneyBillAlt } from "react-icons/fa";
 
 export const Services = () => {
   useEffect(() => {
@@ -52,8 +47,8 @@ export const Services = () => {
             <CardTitle>Contabilidade Geral</CardTitle>
             <CardText>
               Mantenha sua organização em dia. Realizamos uma escrituração
-              contábil completa, elaborando os balanços e relatórios gerenciais
-              essenciais para a tomada de decisões e conformidade legal.
+              contábil completa, elaborando balanços e relatórios gerenciais
+              essenciais para a tomada de decisão e conformidade legal.
             </CardText>
           </ServiceCard>
 
@@ -63,9 +58,9 @@ export const Services = () => {
             </CardImage>
             <CardTitle>Fiscal e Tributário</CardTitle>
             <CardText>
-              Otimize sua carga tributária e evite possíveis multas. Cuidamos da
-              apuração de impostos, do planejamento tributário estratégico e da
-              entrega de todas as declarações e obrigações acessórias.
+              Otimize a sua carga tributária e evite multas. Cuidamos da
+              apuração dos impostos, do planejamento tributário e da entrega de
+              declarações e obrigações acessórias.
             </CardText>
           </ServiceCard>
 
@@ -75,9 +70,9 @@ export const Services = () => {
             </CardImage>
             <CardTitle>Departamento Pessoal e Trabalhista</CardTitle>
             <CardText>
-              Gestão de Pessoal sem complicações. Processamento da folha de
-              pagamento, com todos os cálculos de encargos sociais e garantia de
-              conformidade com a Legislação trabalhista.
+              Uma gestão de Departamento Pessoal sem complicação. Processamento
+              da folha de pagamento com cálculos de encargos sociais e garantia
+              de conformidade com a Legislação Trabalhista.
             </CardText>
           </ServiceCard>
 
@@ -87,9 +82,9 @@ export const Services = () => {
             </CardImage>
             <CardTitle>Consultoria e Acessoria</CardTitle>
             <CardText>
-              Consultoria contábil e finaceira. Com um suporte personalizado
-              para otimizar toda sua gestão, reduzir custos e garantir que a sua
-              organização esteja atualizada e segura perante a legislação.
+              Consultoria Contábil e Finaceira. Com suporte personalizado para
+              otimizar sua gestão, reduzir custos e garantir uma organização
+              atualizada e segura mediante a Legislação.
             </CardText>
           </ServiceCard>
         </ServicesCards>
