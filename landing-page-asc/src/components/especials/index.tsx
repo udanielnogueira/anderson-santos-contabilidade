@@ -31,7 +31,11 @@ export const Specials = () => {
   return (
     <StyledSpecials id="specials">
       <SpecialsContainer>
-        <div data-aos="fade-up" className="headingSubheadingContainer">
+        <div
+          data-aos="fade-up"
+          data-aos-delay="500"
+          className="headingSubheadingContainer"
+        >
           <BsStars className="stars" />
           <Heading>Nossa Especialidade: Terceiro Setor</Heading>
           <Subheading>
@@ -40,64 +44,57 @@ export const Specials = () => {
             finalidade da sua organização!
           </Subheading>
         </div>
-        <SpecialsCards data-aos="fade-up" data-aos-delay="500">
+        <SpecialsCards data-aos="fade-up" data-aos-delay="600">
           <SpecialsCard>
-            {/* <div className="imageTitleContainer"> */}
             <CardImage>
-              <MdOutlineChurch />
+              <MdOutlineChurch className="red" />
             </CardImage>
             <CardTitle>Conformidade Adequada</CardTitle>
-            {/* </div> */}
-            <CardText>
-              Nós oferecemos uma gestão contábil completa para o Terceiro Setor,
-              seguindo normas como a ITG 2002 e MROSC. Elaboramos demonstrações,
-              relatórios e prestações de contas. Assegurando transparência e
-              conformidade legal.
-            </CardText>
-          </SpecialsCard>
 
-          <SpecialsCard className="marginTop">
-            {/* <div className="imageTitleContainer"> */}
-            <CardImage>
-              <RiFilePaperLine />
-            </CardImage>
-            <CardTitle>Certificados e Isenções</CardTitle>
-            {/* </div> */}
-            <CardText>
-              Fazemos o processo de obtenção de certificados importantes como o
-              CEBAS, OSCIP e outros. Também damos entrada em pedidos de isenções
-              e imunidades tributárias, como isenções de IPTU, de ICMS e da taxa
-              de Bombeiros.
+            <CardText className="text-1">
+              Nós oferecemos uma gestão contábil completa para o Terceiro Setor,
+              seguindo normas como a ITG 2002 e MROSC. Também elaboramos
+              demonstrações, relatórios e prestações de contas. Assegurando
+              transparência e conformidade legal.
             </CardText>
           </SpecialsCard>
 
           <SpecialsCard>
-            {/* <div className="imageTitleContainer"> */}
             <CardImage>
-              <LuMonitorCheck />
+              <RiFilePaperLine className="orange" />
             </CardImage>
-            <CardTitle>Legalização Completa</CardTitle>
-            {/* </div> */}
-            <CardText>
-              Nós Realizamos abertura, baixa e regularização de CNPJ. Elaboramos
-              as Atas e Estatutos de forma personalizada. Damos entrada no
-              Cartório de Registro, na Receita Federal e também acompanhamos
-              todo o processo.
+            <CardTitle>Certificados e Isenções</CardTitle>
+
+            <CardText className="text-2">
+              Fazemos o processo de obtenção de certificados importantes como o
+              CEBAS, OSCIP e outros. Também damos entrada em pedidos de isenções
+              e imunidades tributárias, como as isenções de IPTU, de ICMS e da
+              taxa de Bombeiros.
             </CardText>
           </SpecialsCard>
 
-          <SpecialsCard className="marginTop">
-            {/* <div className="imageTitleContainer"> */}
+          <SpecialsCard>
             <CardImage>
-              <RiScissorsFill />
+              <LuMonitorCheck className="violet" />
+            </CardImage>
+            <CardTitle>Legalização Completa</CardTitle>
+            <CardText className="text-3">
+              Realizamos abertura, baixa e regularização de CNPJ. Também
+              elaboramos Atas e Estatutos de forma personalizada. Damos entrada
+              no Cartório de Registro, na Receita Federal e acompanhamos todo
+              processo.
+            </CardText>
+          </SpecialsCard>
+
+          <SpecialsCard>
+            <CardImage>
+              <RiScissorsFill className="emerald" />
             </CardImage>
             <CardTitle>Assistente de Tesouraria</CardTitle>
-            {/* </div> */}
-            <CardText>
+            <CardText className="text-4">
               Oferecemos serviços de terceirização das tarefas de Tesouraria,
               para que o tesoureiro tenha mais suporte na gestão de suas rotinas
-              e elaboração dos relatórios internos com indicadores. Gerando
-              assim, um processo otimizado.
+              e agilidade na elaboração dos relatórios internos com indicadores.
             </CardText>
           </SpecialsCard>
         </SpecialsCards>

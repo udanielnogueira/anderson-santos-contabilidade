@@ -17,9 +17,11 @@ export const StyledTestimonials = styled.section`
 `;
 
 export const TestimonialsContainer = styled.div`
-  height: 100vh;
+  /* height: 75vh; */
   margin: 0 auto;
   max-width: 128rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 
   display: flex;
   align-items: center;
@@ -52,7 +54,7 @@ export const Heading = styled.h2`
 
 export const Subheading = styled.p`
   max-width: 72rem;
-  margin-bottom: 12rem;
+  margin-bottom: 8rem;
 
   font-size: 2rem;
   font-weight: 300;

@@ -3,9 +3,11 @@ import styled from "styled-components";
 export const StyledAbout = styled.section``;
 
 export const AboutContainer = styled.div`
-  height: 100vh;
+  /* height: 100vh; */
   margin: 0 auto;
   max-width: 128rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 
   display: flex;
   align-items: center;

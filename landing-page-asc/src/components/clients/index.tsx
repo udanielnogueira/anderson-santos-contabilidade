@@ -87,12 +87,12 @@ export const Clients: React.FC = () => {
 
   return (
     <StyledClients id="clients">
-      <ClientsContainer>
-        <div data-aos="fade-up">
+      <ClientsContainer data-aos="fade-up">
+        <div>
           <Heading>Com várias organizações já sendo atendidas</Heading>
           <Subheading>Conheça alguns dos clientes 100% satisfeitos</Subheading>
         </div>
-        <LogosWrapper data-aos="fade-up" data-aos-delay="500">
+        <LogosWrapper>
           <Swiper
             modules={[Controller, Pagination, Navigation, Scrollbar]}
             slidesPerView={3}
@@ -114,7 +114,7 @@ export const Clients: React.FC = () => {
             ))}
           </Swiper>
         </LogosWrapper>
-        {/* <div data-aos="fade-up" data-aos-delay="500">
+        {/* <div data-aos="fade-up" data-aos-delay="600">
           <PiHandSwipeRight />
         </div> */}
       </ClientsContainer>

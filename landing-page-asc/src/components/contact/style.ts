@@ -7,8 +7,10 @@ export const StyledContact = styled.section`
 export const ContactContainer = styled.div`
   margin: 0 auto;
   max-width: 128rem;
+  /* height: 80vh; */
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 
-  height: 80vh;
   display: flex;
   align-items: center;
   flex-direction: column;

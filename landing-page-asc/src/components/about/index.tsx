@@ -31,7 +31,7 @@ export const About = () => {
             +7 anos atuando na contabilidade de maneira exemplar
           </Subheading>
         </div>
-        <TextImageWrapper data-aos="fade-up" data-aos-delay="500">
+        <TextImageWrapper data-aos="fade-up" data-aos-delay="600">
           <Image src={professionalPicture} alt={"Foto profissional"} />
           <AboutText>
             Muitas organizações do Terceiro Setor têm sua contabilidade feita de

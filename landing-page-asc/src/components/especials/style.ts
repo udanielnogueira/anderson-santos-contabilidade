@@ -6,9 +6,10 @@ export const StyledSpecials = styled.section`
 
 export const SpecialsContainer = styled.div`
   width: 100%;
-  height: 120vh;
   margin: 0 auto;
   max-width: 128rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 
   display: flex;
   align-items: center;
@@ -90,18 +91,18 @@ export const SpecialsCards = styled.div`
 `;
 
 export const SpecialsCard = styled.article`
-  width: 48rem;
-  height: 32rem;
+  width: 56rem;
+  height: 28rem;
+  padding: 3.2rem;
 
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: flex-start;
   justify-content: center;
 
-  padding: 3.2rem;
   border-radius: 1rem;
   transition: 400ms ease-in-out;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
+  border: 2px solid var(--white-sub);
 
   &:hover {
     transform: translateY(-0.8rem);
@@ -111,19 +112,62 @@ export const SpecialsCard = styled.article`
     width: 100%;
     height: auto;
   }
+
+  .text-1 {
+    @media only screen and (max-width: 1080px) {
+      word-spacing: -0.15em;
+    }
+  }
+
+  .text-2 {
+    @media only screen and (max-width: 1080px) {
+      word-spacing: -0.15em;
+    }
+  }
+
+  .text-3 {
+    @media only screen and (max-width: 1080px) {
+      word-spacing: -0.05em;
+    }
+  }
+
+  .text-4 {
+    @media only screen and (max-width: 1080px) {
+      word-spacing: -0.05em;
+    }
+  }
 `;
 
 export const CardImage = styled.div`
   margin-bottom: 1.6rem;
 
   svg {
-    width: 6.4rem;
-    height: 6.4rem;
-    padding: 1.6rem;
-    color: var(--blue);
+    width: 5.6rem;
+    height: 5.6rem;
+    padding: 1.2rem;
+
     text-align: center;
-    border-radius: 0.4rem;
-    background-color: var(--primary-color);
+    border-radius: 8px;
+  }
+
+  .emerald {
+    color: oklch(76.5% 0.177 163.223); // emerald 400
+    background-color: oklch(95% 0.052 163.051); // emerald 100
+  }
+
+  .violet {
+    color: oklch(70.2% 0.183 293.541); // violet 400
+    background-color: oklch(94.3% 0.029 294.588); // violet 100
+  }
+
+  .orange {
+    color: oklch(75% 0.183 55.934); // orange 400
+    background-color: oklch(95.4% 0.038 75.164); // orange 100
+  }
+
+  .red {
+    color: oklch(70.4% 0.191 22.216); // red 400
+    background-color: oklch(93.6% 0.032 17.717); // red 100
   }
 `;
 
@@ -150,8 +194,4 @@ export const CardText = styled.p`
   -webkit-hyphens: auto;
   word-spacing: -0.05em;
   /* word-break: break-all; */
-
-  @media only screen and (max-width: 1080px) {
-    word-spacing: -0.15em;
-  }
 `;

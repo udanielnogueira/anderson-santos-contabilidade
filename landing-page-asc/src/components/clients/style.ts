@@ -19,9 +19,11 @@ export const StyledClients = styled.section`
 `;
 
 export const ClientsContainer = styled.div`
-  height: 100vh;
+  /* height: 100vh; */
   width: 128rem;
   margin: 0 auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 
   display: flex;
   align-items: center;

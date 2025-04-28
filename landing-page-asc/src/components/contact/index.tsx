@@ -19,7 +19,7 @@ import { PiArrowElbowRightDownLight } from "react-icons/pi";
 export const Contact = () => {
   return (
     <StyledContact id="contact">
-      <ContactContainer data-aos="fade-up" data-aos-delay="500">
+      <ContactContainer data-aos="fade-up" data-aos-delay="600">
         <ContactTitle>
           <ContactTitleText>Fale conosco por aqui</ContactTitleText>
           <ContactIcon href="#contact" aria-label="Nossos contatos">
