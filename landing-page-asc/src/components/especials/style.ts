@@ -24,14 +24,25 @@ export const SpecialsContainer = styled.div`
   }
 
   .stars {
-    width: 5.6rem;
-    height: 5.6rem;
+    width: 4.8rem;
+    height: 4.8rem;
     color: var(--blue);
     margin-bottom: 2.4rem;
+    animation: spin 2400ms ease-in-out alternate-reverse infinite;
+
+    @keyframes spin {
+      from {
+        transform: rotate(0);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
   }
 
   @media only screen and (max-width: 1080px) {
     height: auto;
+    padding-bottom: 0rem;
   }
 `;
 
@@ -45,16 +56,24 @@ export const Heading = styled.h2`
   color: var(--blue);
   line-height: 6.4rem;
 
+  .small {
+    font-size: 4.8rem;
+  }
+
   @media only screen and (max-width: 1080px) {
-    max-width: 44rem;
+    max-width: 36.5rem;
 
     font-size: 4rem;
     line-height: 4.3rem;
+
+    .small {
+      font-size: 3.2rem;
+    }
   }
 `;
 
 export const Subheading = styled.p`
-  max-width: 80rem;
+  max-width: 73rem;
   margin-bottom: 4.8rem;
 
   font-size: 2rem;
@@ -64,7 +83,7 @@ export const Subheading = styled.p`
 
   @media only screen and (max-width: 1080px) {
     margin: 0 auto;
-    max-width: 40rem;
+    max-width: 36.5rem;
     margin-bottom: 4rem;
 
     line-height: 2.4rem;

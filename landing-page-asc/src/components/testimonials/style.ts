@@ -31,6 +31,8 @@ export const TestimonialsContainer = styled.div`
   @media only screen and (max-width: 1080px) {
     height: auto;
     max-width: 36rem;
+    padding-top: 4rem;
+    padding-bottom: 0rem;
   }
 `;
 

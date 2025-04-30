@@ -4,8 +4,8 @@ import {
   Logo,
   LinkList,
   LinkItem,
-  HeaderButton,
   ArrowRight,
+  HeaderButton,
   StyledHeader,
   HeaderContainer,
 } from "./style";

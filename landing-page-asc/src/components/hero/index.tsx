@@ -27,14 +27,14 @@ export const Hero = () => {
 
   return (
     <>
-      <StyledHero data-aos="fade-up">
+      <StyledHero /*data-aos="fade-up"*/>
         <HeroContainer>
           <Headline>
             Contabilidade transparente e responsável que fortalece sua missão
           </Headline>
           <Subheadline>
-            Cuidamos de toda a burocracia no nosso escritório, com soluções
-            contábeis amigáveis para uma gestão segura e regularizada.
+            Cuidamos de toda a burocracia no nosso escritório, com as soluções
+            contábeis amigáveis pra uma gestão segura e regularizada.
           </Subheadline>
           <HeroButtonsContainer>
             <HeroButton href="#services">Serviços</HeroButton>

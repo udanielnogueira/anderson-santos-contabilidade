@@ -12,25 +12,43 @@ export const HeroContainer = styled.div`
   align-items: center;
   flex-direction: column;
   justify-content: center;
+
+  @media screen and (max-width: 1080px) {
+    height: auto;
+  }
 `;
 
 export const Headline = styled.h1`
-  color: var(--white-main);
-  text-align: center;
+  max-width: 87rem;
   font-weight: 700;
   font-size: 6.4rem;
-  max-width: 87rem;
+  text-align: center;
   line-height: 7.2rem;
   margin-bottom: 1.6rem;
+  color: var(--white-main);
+
+  @media screen and (max-width: 1080px) {
+    font-size: 4rem;
+    line-height: 4.8rem;
+  }
+
+  @media screen and (max-width: 375px) {
+    max-width: 36.5rem;
+  }
 `;
 
 export const Subheadline = styled.p`
-  color: var(--white-sub);
   max-width: 72rem;
   font-weight: 300;
   font-size: 2.4rem;
   text-align: center;
   margin-bottom: 4.8rem;
+  color: var(--white-sub);
+
+  @media screen and (max-width: 1080px) {
+    font-size: 2rem;
+    max-width: 37rem;
+  }
 `;
 
 export const HeroButtonsContainer = styled.div`
@@ -62,6 +80,10 @@ export const HeroButton = styled.a`
 
     /* text-decoration: underline; */
   }
+
+  @media screen and (max-width: 1080px) {
+    font-size: 1.6rem;
+  }
 `;
 
 export const ArrowRight = styled(GoArrowDownRight)`
@@ -84,11 +106,11 @@ export const HeroButtonBordered = styled.a`
   transition: 320ms ease-in-out;
   border: 0.24rem solid transparent;
 
-  // Fundo semi-transparente
-  background: rgba(0, 0, 0, 0.1);
-
   // Efeito de desfoque
   backdrop-filter: blur(3px);
+
+  // Fundo semi-transparente
+  background: rgba(0, 0, 0, 0.1);
 
   // Efeito de desfoque para Safari
   -webkit-backdrop-filter: blur(3px);
@@ -98,8 +120,11 @@ export const HeroButtonBordered = styled.a`
 
   &:hover {
     transform: translateY(-0.8rem);
+    border: 0.24rem solid var(--white-sub);
+  }
 
-    /* border: 0.24rem solid var(--white-main); */
+  @media screen and (max-width: 1080px) {
+    font-size: 1.6rem;
   }
 `;
 

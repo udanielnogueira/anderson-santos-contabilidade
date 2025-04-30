@@ -26,29 +26,39 @@ export const FooterContainer = styled.div`
 
   height: 8rem;
   display: flex;
+  font-size: 1.6rem;
   align-items: center;
   justify-content: space-between;
+
+  @media screen and (max-width: 1080px) {
+    height: 5.6rem;
+    max-width: 36rem;
+    font-size: 1.4rem;
+  }
 `;
 
 export const CompanyCopyright = styled.p`
   color: var(--dark-main);
   font-weight: 500;
-  font-size: 1.6rem;
 
   display: flex;
   align-items: center;
+  justify-content: center;
 
   span {
     font-weight: 700;
     font-size: 1.8rem;
     margin-right: 0.4rem;
   }
+
+  @media screen and (max-width: 1080px) {
+    margin-bottom: 1px;
+  }
 `;
 
 export const CompanyDev = styled.div`
   color: var(--dark-main);
   font-weight: 500;
-  font-size: 1.6rem;
 
   a {
     color: var(--dark-main);

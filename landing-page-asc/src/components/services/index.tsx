@@ -37,7 +37,7 @@ export const Services = () => {
             Confira os serviços disponíveis aqui no nosso escritório
           </Heading>
           <Subheading>
-            Uma gestão eficiente e contabilidade responsável
+            Para uma gestão eficiente e contabilidade responsável
           </Subheading>
         </div>
         <ServicesCards data-aos="fade-up" data-aos-delay="600">

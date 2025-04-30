@@ -15,6 +15,10 @@ export const ContactContainer = styled.div`
   align-items: center;
   flex-direction: column;
   justify-content: center;
+
+  @media only screen and (max-width: 1080px) {
+    padding-bottom: 1.6rem;
+  }
 `;
 
 export const ContactTitle = styled.div`
@@ -29,6 +33,13 @@ export const ContactTitleText = styled.h2`
   text-align: center;
   color: var(--white-main);
   margin-bottom: 2.4rem;
+
+  @media only screen and (max-width: 1320px) {
+    max-width: 26rem;
+
+    font-size: 4rem;
+    line-height: 4.3rem;
+  }
 `;
 
 export const Subheading = styled.p`
@@ -38,6 +49,10 @@ export const Subheading = styled.p`
   font-size: 2rem;
   text-align: center;
   margin-bottom: 8rem;
+
+  @media only screen and (max-width: 1320px) {
+    display: none;
+  }
 `;
 
 export const ContactIcon = styled.a`
@@ -59,6 +74,10 @@ export const ContactIcon = styled.a`
       }
     }
   }
+
+  @media only screen and (max-width: 1320px) {
+    display: none;
+  }
 `;
 
 export const ContactElementsWrapper = styled.div`
@@ -66,6 +85,11 @@ export const ContactElementsWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  @media screen and (max-width: 1080px) {
+    gap: 1.6rem;
+    flex-direction: column;
+  }
 `;
 
 export const ContactElement = styled.a`

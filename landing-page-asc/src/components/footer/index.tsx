@@ -12,10 +12,10 @@ export const Footer = () => {
     <StyledFooter>
       <FooterContainer>
         <CompanyCopyright>
-          <span>&copy;</span> 2025 ASSC All rights reserved
+          <span>&copy;</span>2025 ASSC
         </CompanyCopyright>
         <CompanyDev>
-          Desenvolvido por{" "}
+          By{" "}
           <a href="https://instagram.com/udanielnogueira/" target="blank">
             Nogdan Studio
           </a>

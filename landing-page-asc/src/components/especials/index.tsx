@@ -19,6 +19,8 @@ import { BsStars } from "react-icons/bs";
 import { LuMonitorCheck } from "react-icons/lu";
 import { MdOutlineChurch } from "react-icons/md";
 import { RiFilePaperLine, RiScissorsFill } from "react-icons/ri";
+import { FaStarOfLife } from "react-icons/fa";
+import { GoStarFill } from "react-icons/go";
 
 export const Specials = () => {
   useEffect(() => {
@@ -36,18 +38,22 @@ export const Specials = () => {
           data-aos-delay="500"
           className="headingSubheadingContainer"
         >
-          <BsStars className="stars" />
-          <Heading>Nossa Especialidade: Terceiro Setor</Heading>
+          {/* <BsStars className="stars" /> */}
+          <FaStarOfLife className="stars" />
+          {/* <GoStarFill className="stars" /> */}
+          <Heading>
+            <span className="small">Nossa especialidade:</span> Terceiro Setor
+          </Heading>
           <Subheading>
-            Com as nossas soluções, você entrega a burocracia para quem entende
-            e otimiza seu tempo para focar no que realmente importa, a
-            finalidade da sua organização!
+            Com as nossas soluções, você entrega a burocracia pra quem entende e
+            otimiza seu tempo pra focar no que realmente importa: a missão da
+            sua organização!
           </Subheading>
         </div>
         <SpecialsCards data-aos="fade-up" data-aos-delay="600">
           <SpecialsCard>
             <CardImage>
-              <MdOutlineChurch className="red" />
+              <MdOutlineChurch className="emerald" />
             </CardImage>
             <CardTitle>Conformidade Adequada</CardTitle>
 
@@ -61,7 +67,7 @@ export const Specials = () => {
 
           <SpecialsCard>
             <CardImage>
-              <RiFilePaperLine className="orange" />
+              <RiFilePaperLine className="violet" />
             </CardImage>
             <CardTitle>Certificados e Isenções</CardTitle>
 
@@ -75,7 +81,7 @@ export const Specials = () => {
 
           <SpecialsCard>
             <CardImage>
-              <LuMonitorCheck className="violet" />
+              <LuMonitorCheck className="orange" />
             </CardImage>
             <CardTitle>Legalização Completa</CardTitle>
             <CardText className="text-3">
@@ -88,7 +94,7 @@ export const Specials = () => {
 
           <SpecialsCard>
             <CardImage>
-              <RiScissorsFill className="emerald" />
+              <RiScissorsFill className="red" />
             </CardImage>
             <CardTitle>Assistente de Tesouraria</CardTitle>
             <CardText className="text-4">

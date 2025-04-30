@@ -17,6 +17,7 @@ export const AboutContainer = styled.div`
   @media only screen and (max-width: 1080px) {
     height: auto;
     max-width: 36rem;
+    padding-bottom: 4rem;
   }
 `;
 

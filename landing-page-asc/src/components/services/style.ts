@@ -19,6 +19,7 @@ export const ServicesContainer = styled.div`
   @media only screen and (max-width: 1080px) {
     height: auto;
     max-width: 36rem;
+    padding-bottom: 0rem;
   }
 `;
 
@@ -51,7 +52,7 @@ export const Subheading = styled.p`
 
   @media only screen and (max-width: 1080px) {
     margin: 0 auto;
-    max-width: 24rem;
+    max-width: 28rem;
     margin-bottom: 4rem;
 
     line-height: 2.4rem;

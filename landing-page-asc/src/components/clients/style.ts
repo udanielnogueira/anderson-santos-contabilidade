@@ -52,6 +52,7 @@ export const ClientsContainer = styled.div`
   @media only screen and (max-width: 1320px) {
     height: auto;
     max-width: 36rem;
+    padding-bottom: 0rem;
   }
 `;
 
