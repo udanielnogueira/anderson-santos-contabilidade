@@ -31,6 +31,16 @@ export const About = () => {
             +7 anos atuando na contabilidade de maneira exemplar
           </Subheading>
         </div>
+        <iframe
+          data-aos="fade-up"
+          // width="560"
+          // height="315"
+          src="https://www.youtube.com/embed/Y4ToBgMOgbI"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+        ></iframe>
         <TextImageWrapper data-aos="fade-up" data-aos-delay="600">
           <Image src={professionalPicture} alt={"Foto profissional"} />
           <AboutText>

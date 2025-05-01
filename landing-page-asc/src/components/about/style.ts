@@ -16,10 +16,24 @@ export const AboutContainer = styled.div`
   flex-direction: column;
   justify-content: center;
 
+  iframe {
+    width: 100%;
+    height: 70.2rem;
+    padding: 0 1.6rem;
+    margin-bottom: 8rem;
+  }
+
   @media only screen and (max-width: 1080px) {
     height: auto;
     max-width: 36rem;
     padding-bottom: 4rem;
+
+    iframe {
+      width: 100%;
+      height: 19.4rem;
+      padding: 0 0.8rem;
+      margin-bottom: 4rem;
+    }
   }
 `;
 
