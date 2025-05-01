@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
-export const StyledAbout = styled.section``;
+export const StyledAbout = styled.section`
+  background-color: var(--white-bg);
+`;
 
 export const AboutContainer = styled.div`
   /* height: 100vh; */

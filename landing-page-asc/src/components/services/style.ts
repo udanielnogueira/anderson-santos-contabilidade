@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledServices = styled.section`
-  background-color: white;
+  background-color: var(--white-bg);
 `;
 
 export const ServicesContainer = styled.div`

@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledFooter = styled.section`
   border-top: 0.1rem solid var(--dark-main);
 
-  background-color: var(--white-main);
+  background-color: var(--white-bg);
 
   /* background: radial-gradient(
       circle at 30% 40%,

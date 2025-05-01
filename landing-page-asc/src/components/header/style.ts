@@ -27,6 +27,10 @@ export const HeaderContainer = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  @media screen and (max-width: 1080px) {
+    padding: 0 1.2rem;
+  }
 `;
 
 export const Logo = styled(SiHdfcbank)`
@@ -63,6 +67,10 @@ export const LinkItem = styled.li`
       border-bottom: 0.4rem solid var(--primary-color);
     }
   }
+
+  @media screen and (max-width: 1180px) {
+    display: none;
+  }
 `;
 
 export const HeaderButton = styled.a`
@@ -81,5 +89,9 @@ export const HeaderButton = styled.a`
 
   &:hover {
     padding: 1.2rem 5.6rem;
+  }
+
+  @media screen and (max-width: 1080px) {
+    padding: 1rem 0.8rem;
   }
 `;

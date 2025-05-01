@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledSpecials = styled.section`
-  background-color: white;
+  background-color: var(--white-bg);
 `;
 
 export const SpecialsContainer = styled.div`

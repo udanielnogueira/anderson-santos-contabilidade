@@ -14,6 +14,8 @@ export const HeroContainer = styled.div`
   justify-content: center;
 
   @media screen and (max-width: 1080px) {
+    padding-top: 6.4rem;
+    padding-bottom: 2rem;
     height: auto;
   }
 `;
@@ -28,11 +30,13 @@ export const Headline = styled.h1`
   color: var(--white-main);
 
   @media screen and (max-width: 1080px) {
-    font-size: 4rem;
-    line-height: 4.8rem;
+    font-size: 4.8rem;
+    line-height: 5.6rem;
+    max-width: 54rem;
+    /* padding: 0 1rem; */
   }
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 550px) {
     max-width: 36.5rem;
   }
 `;
@@ -48,6 +52,7 @@ export const Subheadline = styled.p`
   @media screen and (max-width: 1080px) {
     font-size: 2rem;
     max-width: 37rem;
+    margin-bottom: 2.4rem;
   }
 `;
 
@@ -57,6 +62,10 @@ export const HeroButtonsContainer = styled.div`
   display: flex;
   /* padding-bottom: 3.2rem; */
   justify-content: center;
+
+  @media screen and (max-width: 1080px) {
+    gap: 1.6rem;
+  }
 `;
 
 export const HeroButton = styled.a`
@@ -71,7 +80,7 @@ export const HeroButton = styled.a`
   font-weight: 500;
   font-size: 1.8rem;
   border-radius: 0.4rem;
-  padding: 0.8rem 4rem;
+  padding: 1.2rem 4rem;
   background-color: var(--primary-color);
   transition: 320ms ease-in-out;
 
@@ -82,7 +91,9 @@ export const HeroButton = styled.a`
   }
 
   @media screen and (max-width: 1080px) {
+    padding: 1.2rem 2.4rem;
     font-size: 1.6rem;
+    font-weight: 600;
   }
 `;
 
@@ -124,7 +135,8 @@ export const HeroButtonBordered = styled.a`
   }
 
   @media screen and (max-width: 1080px) {
-    font-size: 1.6rem;
+    border: none;
+    padding: 1.2rem 2.4rem;
   }
 `;
 
@@ -144,5 +156,16 @@ export const ServicesContainerIcon = styled.a`
     width: 6.4rem;
     height: 6.4rem;
     color: var(--primary-color);
+  }
+
+  @media screen and (max-width: 1080px) {
+    @keyframes moving {
+      from {
+        transform: translateY(11rem);
+      }
+      to {
+        transform: translateY(0.8rem);
+      }
+    }
   }
 `;

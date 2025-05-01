@@ -18,6 +18,8 @@
 
   /* sky 950 */
   --blue: oklch(29.3% 0.066 243.157);
+
+  --white-bg: #fdfdfd;
 }
 
 * {

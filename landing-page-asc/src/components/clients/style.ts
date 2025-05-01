@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledClients = styled.section`
-  background-color: white;
+  background-color: var(--white-bg);
 
   .swiper-button-next,
   .swiper-button-prev {
