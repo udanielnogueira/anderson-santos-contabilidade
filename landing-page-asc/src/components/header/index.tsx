@@ -1,7 +1,8 @@
 "use client";
+import Image from "next/image";
+import Logo from "./assets/logo.png";
 
 import {
-  Logo,
   LinkList,
   LinkItem,
   ArrowRight,
@@ -26,7 +27,7 @@ export const Header = () => {
     <>
       <StyledHeader>
         <HeaderContainer>
-          <Logo />
+          <Image src={Logo} alt={"Logo"}></Image>
           <LinkList>
             {links.map((item) => (
               <LinkItem key={item.name}>

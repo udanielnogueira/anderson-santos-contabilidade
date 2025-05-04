@@ -31,6 +31,11 @@ export const HeaderContainer = styled.nav`
   @media screen and (max-width: 1080px) {
     padding: 0 1.2rem;
   }
+
+  img {
+    width: 4rem;
+    height: auto;
+  }
 `;
 
 export const Logo = styled(SiHdfcbank)`
