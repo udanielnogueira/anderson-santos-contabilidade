@@ -42,7 +42,7 @@ export const About = () => {
           allowFullScreen
         ></iframe>
         <TextImageWrapper data-aos="fade-up" data-aos-delay="600">
-          <Image src={professionalPicture} alt={"Foto profissional"} />
+          {/* <Image src={professionalPicture} alt={"Foto profissional"} /> */}
           <AboutText>
             Muitas organizações do Terceiro Setor têm sua contabilidade feita de
             forma irregular ou análoga às organizações de outros setores, o que

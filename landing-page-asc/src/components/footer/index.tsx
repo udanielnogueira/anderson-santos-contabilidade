@@ -17,7 +17,7 @@ export const Footer = () => {
         <CompanyDev>
           By{" "}
           <a href="https://instagram.com/udanielnogueira/" target="blank">
-            Nogdan Studio
+            Nogueira
           </a>
         </CompanyDev>
       </FooterContainer>
