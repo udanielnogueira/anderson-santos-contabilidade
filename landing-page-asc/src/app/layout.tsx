@@ -16,6 +16,7 @@ export default function RootLayout({
     <html lang="pt-br">
       <head>
         <title>ASSC</title>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
         <meta
           name="description"
           content="Conheça o nosso escritório de Contabilidade"
