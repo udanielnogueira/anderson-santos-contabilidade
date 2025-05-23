@@ -81,7 +81,7 @@ export const Services = () => {
             <CardImage>
               <LuGlasses className="red" />
             </CardImage>
-            <CardTitle>Consultoria e Acessoria</CardTitle>
+            <CardTitle>Consultoria e Assessoria</CardTitle>
             <CardText>
               Receba uma consultoria contábil e finaceira. Com suporte
               personalizado para otimizar sua gestão, reduzir custos e garantir
